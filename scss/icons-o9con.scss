@@ -1,0 +1,4506 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote('"\\#{$str}"');
+}
+
+$o9con-arrow-circle-left: unicode(ea02);
+$o9con-angle-up: unicode(ea03);
+$o9con-hand-o-down: unicode(ea04);
+$o9con-long-arrow-up: unicode(ea05);
+$o9con-long-arrow-right: unicode(ea06);
+$o9con-long-arrow-left: unicode(ea07);
+$o9con-long-arrow-down: unicode(ea08);
+$o9con-hand-o-up: unicode(ea09);
+$o9con-hand-o-right: unicode(ea0a);
+$o9con-hand-o-left: unicode(ea0b);
+$o9con-arrow-left: unicode(ea0c);
+$o9con-exchange: unicode(ea0d);
+$o9con-chevron: unicode(ea0e);
+$o9con-chevron-up: unicode(ea0f);
+$o9con-chevron-right: unicode(ea10);
+$o9con-chevron-left: unicode(ea11);
+$o9con-chevron-down: unicode(ea12);
+$o9con-chevron-circle-up: unicode(ea13);
+$o9con-chevron-circle-right: unicode(ea14);
+$o9con-chevron-circle-left: unicode(ea15);
+$o9con-chevron-circle-down: unicode(ea16);
+$o9con-caret-up: unicode(ea17);
+$o9con-caret-unfold-v: unicode(ea18);
+$o9con-caret-unfold-h: unicode(ea19);
+$o9con-caret-square-o-up: unicode(ea1a);
+$o9con-caret-square-o-right: unicode(ea1b);
+$o9con-caret-square-o-left: unicode(ea1c);
+$o9con-caret-square-o-down: unicode(ea1d);
+$o9con-caret-scroll-v: unicode(ea1e);
+$o9con-caret-scroll-h: unicode(ea1f);
+$o9con-caret-right: unicode(ea20);
+$o9con-caret-left: unicode(ea21);
+$o9con-caret-down: unicode(ea22);
+$o9con-arrows-alt: unicode(ea23);
+$o9con-arrows-v: unicode(ea24);
+$o9con-arrows-h: unicode(ea25);
+$o9con-arrows: unicode(ea26);
+$o9con-arrow-up: unicode(ea27);
+$o9con-arrow-right: unicode(ea28);
+$o9con-arrow-circle-o-up: unicode(ea29);
+$o9con-arrow-down: unicode(ea2a);
+$o9con-arrow-circle-up: unicode(ea2b);
+$o9con-arrow-circle-right: unicode(ea2c);
+$o9con-angle-double-up: unicode(ea2d);
+$o9con-arrow-circle-o-right: unicode(ea2e);
+$o9con-arrow-circle-o-left: unicode(ea2f);
+$o9con-arrow-circle-o-down: unicode(ea30);
+$o9con-angle-double-right: unicode(ea31);
+$o9con-arrow-circle-down: unicode(ea32);
+$o9con-angle-double-down: unicode(ea33);
+$o9con-angle-right: unicode(ea34);
+$o9con-angle-left: unicode(ea35);
+$o9con-angle-down: unicode(ea36);
+$o9con-angle-double-left: unicode(ea37);
+$o9con-book-help: unicode(ea38);
+$o9con-bell-o: unicode(ea39);
+$o9con-book: unicode(ea3a);
+$o9con-webhook: unicode(ea3b);
+$o9con-view-report: unicode(ea3c);
+$o9con-users-alt: unicode(ea3d);
+$o9con-user: unicode(ea3e);
+$o9con-user-setting: unicode(ea3f);
+$o9con-user-management: unicode(ea40);
+$o9con-transform: unicode(ea41);
+$o9con-tornado: unicode(ea42);
+$o9con-tools: unicode(ea43);
+$o9con-toggle-on: unicode(ea44);
+$o9con-toggle-off: unicode(ea45);
+$o9con-tenant: unicode(ea46);
+$o9con-template: unicode(ea47);
+$o9con-tag: unicode(ea48);
+$o9con-support-ticket: unicode(ea49);
+$o9con-star-o: unicode(ea4a);
+$o9con-spinner: unicode(ea4b);
+$o9con-sliders: unicode(ea4c);
+$o9con-setting-edit: unicode(ea4d);
+$o9con-search: unicode(ea4e);
+$o9con-rotate-90: unicode(ea4f);
+$o9con-rocket: unicode(ea50);
+$o9con-report-config: unicode(ea51);
+$o9con-refresh: unicode(ea52);
+$o9con-priority-edge: unicode(ea53);
+$o9con-plus: unicode(ea54);
+$o9con-plus-circle-o: unicode(ea55);
+$o9con-pie-chart: unicode(ea56);
+$o9con-performance-monitor: unicode(ea57);
+$o9con-open-new: unicode(ea58);
+$o9con-omni-direction-alt: unicode(ea59);
+$o9con-minus: unicode(ea5a);
+$o9con-logical-group: unicode(ea5b);
+$o9con-list-ul: unicode(ea5c);
+$o9con-lead-time: unicode(ea5d);
+$o9con-info-circle: unicode(ea5e);
+$o9con-home: unicode(ea5f);
+$o9con-home-alt: unicode(ea60);
+$o9con-groups: unicode(ea61);
+$o9con-grid-alt: unicode(ea62);
+$o9con-grid: unicode(ea63);
+$o9con-full-screen: unicode(ea64);
+$o9con-filter: unicode(ea65);
+$o9con-external-link: unicode(ea66);
+$o9con-exclamation-triangle: unicode(ea67);
+$o9con-exclamation-circle: unicode(ea68);
+$o9con-envelope: unicode(ea69);
+$o9con-envelope-o: unicode(ea6a);
+$o9con-ellipsis-v: unicode(ea6b);
+$o9con-ellipsis-h: unicode(ea6c);
+$o9con-desktop-heart: unicode(ea6d);
+$o9con-desktop-cog: unicode(ea6e);
+$o9con-desktop-cloud: unicode(ea6f);
+$o9con-designer: unicode(ea70);
+$o9con-data-management: unicode(ea71);
+$o9con-cubes: unicode(ea72);
+$o9con-cube: unicode(ea73);
+$o9con-create-task: unicode(ea74);
+$o9con-create-scene: unicode(ea75);
+$o9con-comment-empty: unicode(ea76);
+$o9con-comment-line: unicode(ea77);
+$o9con-comment-help: unicode(ea78);
+$o9con-cogs: unicode(ea79);
+$o9con-cog: unicode(ea7a);
+$o9con-code-editor: unicode(ea7b);
+$o9con-cloud-upload: unicode(ea7c);
+$o9con-cloud-download: unicode(ea7d);
+$o9con-close: unicode(ea7e);
+$o9con-times-circle-o: unicode(ea7f);
+$o9con-times-square-o: unicode(ea80);
+$o9con-clear: unicode(ea81);
+$o9con-check: unicode(ea82);
+$o9con-plus-square-o: unicode(ea83);
+$o9con-check-circle-o: unicode(ea84);
+$o9con-bars: unicode(ea85);
+$o9con-apps: unicode(ea86);
+$o9con-add-book: unicode(ea87);
+$o9con-folder-add-alt: unicode(ea88);
+$o9con-add-view: unicode(ea89);
+$o9con-bin-alt: unicode(ea8a);
+$o9con-bin: unicode(ea8b);
+$o9con-book-download: unicode(ea8c);
+$o9con-bulk-edit: unicode(ea8d);
+$o9con-calendar-date: unicode(ea8e);
+$o9con-caret-collapsed: unicode(ea8f);
+$o9con-caret-expanded: unicode(ea90);
+$o9con-clock-o: unicode(ea91);
+$o9con-color: unicode(ea92);
+$o9con-download: unicode(ea93);
+$o9con-duplicate: unicode(ea94);
+$o9con-edit-properties: unicode(ea95);
+$o9con-comment-add: unicode(ea96);
+$o9con-edit-cell: unicode(ea97);
+$o9con-factory-setting: unicode(ea98);
+$o9con-favorite-download: unicode(ea99);
+$o9con-filter-ext: unicode(ea9a);
+$o9con-folder: unicode(ea9b);
+$o9con-add-presentation: unicode(ea9c);
+$o9con-eye-slash: unicode(ea9d);
+$o9con-layout: unicode(ea9e);
+$o9con-notes: unicode(ea9f);
+$o9con-pencil: unicode(eaa0);
+$o9con-play-presentation: unicode(eaa1);
+$o9con-presentation: unicode(eaa2);
+$o9con-rename: unicode(eaa3);
+$o9con-show-view: unicode(eaa4);
+$o9con-eye: unicode(eaa5);
+$o9con-swipe-right: unicode(eaa6);
+$o9con-table-column: unicode(eaa7);
+$o9con-table-row: unicode(eaa8);
+$o9con-truck: unicode(eaa9);
+$o9con-up-down: unicode(eaaa);
+$o9con-upload: unicode(eaab);
+$o9con-full-screen-exit: unicode(eaac);
+$o9con-zoom-out: unicode(eaad);
+$o9con-execute: unicode(eaae);
+$o9con-zoom-in: unicode(eaaf);
+$o9con-add-textbox: unicode(eab0);
+$o9con-align-center: unicode(eab1);
+$o9con-align-justify: unicode(eab2);
+$o9con-bold: unicode(eab3);
+$o9con-clipboard: unicode(eab4);
+$o9con-align-right: unicode(eab5);
+$o9con-cut: unicode(eab6);
+$o9con-decrease-font: unicode(eab7);
+$o9con-tint: unicode(eab8);
+$o9con-eraser: unicode(eab9);
+$o9con-file-o: unicode(eaba);
+$o9con-file: unicode(eabb);
+$o9con-floppy-o: unicode(eabc);
+$o9con-font-color: unicode(eabd);
+$o9con-font: unicode(eabe);
+$o9con-header: unicode(eabf);
+$o9con-increase-font: unicode(eac0);
+$o9con-dedent: unicode(eac1);
+$o9con-indent: unicode(eac2);
+$o9con-italic: unicode(eac3);
+$o9con-link: unicode(eac4);
+$o9con-list-alt: unicode(eac5);
+$o9con-align-left: unicode(eac6);
+$o9con-copy: unicode(eac7);
+$o9con-background-color: unicode(eac8);
+$o9con-paragraph: unicode(eac9);
+$o9con-list: unicode(eaca);
+$o9con-rotate-right: unicode(eacb);
+$o9con-strikethrough: unicode(eacc);
+$o9con-subscript: unicode(eacd);
+$o9con-superscript: unicode(eace);
+$o9con-text-height: unicode(eacf);
+$o9con-rotate-left: unicode(ead0);
+$o9con-list-ol: unicode(ead1);
+$o9con-paperclip: unicode(ead2);
+$o9con-unlink: unicode(ead3);
+$o9con-text: unicode(ead4);
+$o9con-underline: unicode(ead5);
+$o9con-text-width: unicode(ead6);
+$o9con-expand: unicode(ead7);
+$o9con-expand-alt: unicode(ead8);
+$o9con-compress: unicode(ead9);
+$o9con-shrink-nodes: unicode(eada);
+$o9con-shrink-corners: unicode(eadb);
+$o9con-mail-reply: unicode(eadc);
+$o9con-mail-reply-all: unicode(eadd);
+$o9con-level-up: unicode(eade);
+$o9con-level-down: unicode(eadf);
+$o9con-full-screen-alt: unicode(eae0);
+$o9con-share: unicode(eae1);
+$o9con-focus-lock: unicode(eae2);
+$o9con-focus-center: unicode(eae3);
+$o9con-focus-center-alt: unicode(eae4);
+$o9con-expand-nodes: unicode(eae5);
+$o9con-compress-alt: unicode(eae6);
+$o9con-sticky-note-o: unicode(eae7);
+$o9con-file-stats: unicode(eae8);
+$o9con-file-image-o: unicode(eae9);
+$o9con-file-text-o: unicode(eaea);
+$o9con-files-o: unicode(eaeb);
+$o9con-file-word-o: unicode(eaec);
+$o9con-file-video-o: unicode(eaed);
+$o9con-file-powerpoint-o: unicode(eaee);
+$o9con-file-pdf-o: unicode(eaef);
+$o9con-file-setting: unicode(eaf0);
+$o9con-file-script: unicode(eaf1);
+$o9con-archive-alt: unicode(eaf2);
+$o9con-file-bookmark: unicode(eaf3);
+$o9con-file-music-o: unicode(eaf4);
+$o9con-file-add: unicode(eaf5);
+$o9con-file-favorite: unicode(eaf6);
+$o9con-file-excel-o: unicode(eaf7);
+$o9con-file-code-o: unicode(eaf8);
+$o9con-file-archive-o: unicode(eaf9);
+$o9con-usb: unicode(eafa);
+$o9con-hierarchy: unicode(eafb);
+$o9con-line-chart-alt: unicode(eafc);
+$o9con-timeline-v: unicode(eafd);
+$o9con-tree-view: unicode(eafe);
+$o9con-tree-structure: unicode(eaff);
+$o9con-timeline: unicode(eb00);
+$o9con-sort-amount-asc: unicode(eb01);
+$o9con-timeline-h: unicode(eb02);
+$o9con-tasks: unicode(eb03);
+$o9con-stacked-bar-v: unicode(eb04);
+$o9con-stacked-bar-h: unicode(eb05);
+$o9con-sort-za-up: unicode(eb06);
+$o9con-sort-alpha-desc: unicode(eb07);
+$o9con-sort-dsc-up: unicode(eb08);
+$o9con-sort-amount-desc: unicode(eb09);
+$o9con-sort-az-up: unicode(eb0a);
+$o9con-sort-alpha-asc: unicode(eb0b);
+$o9con-sort-asc-up: unicode(eb0c);
+$o9con-heatmap: unicode(eb0d);
+$o9con-sort-21-up: unicode(eb0e);
+$o9con-sort-numeric-desc: unicode(eb0f);
+$o9con-sort-12-up: unicode(eb10);
+$o9con-sort-numeric-asc: unicode(eb11);
+$o9con-scatter-plot: unicode(eb12);
+$o9con-rising: unicode(eb13);
+$o9con-profit: unicode(eb14);
+$o9con-profit-flag: unicode(eb15);
+$o9con-table: unicode(eb16);
+$o9con-pipeline: unicode(eb17);
+$o9con-pie-chart-alt: unicode(eb18);
+$o9con-normal-distribution: unicode(eb19);
+$o9con-network-nodes: unicode(eb1a);
+$o9con-mind-map: unicode(eb1b);
+$o9con-min-val: unicode(eb1c);
+$o9con-max-val: unicode(eb1d);
+$o9con-maslow-pyramid: unicode(eb1e);
+$o9con-loss: unicode(eb1f);
+$o9con-line-chart: unicode(eb20);
+$o9con-flow-chart: unicode(eb21);
+$o9con-bell-curve: unicode(eb22);
+$o9con-combo-chart: unicode(eb23);
+$o9con-blockchain: unicode(eb24);
+$o9con-falling: unicode(eb25);
+$o9con-doughnut-chart: unicode(eb26);
+$o9con-bar-chart-v: unicode(eb27);
+$o9con-bar-chart: unicode(eb28);
+$o9con-bar-chart-h: unicode(eb29);
+$o9con-area-chart-alt: unicode(eb2a);
+$o9con-asterisk: unicode(eb2b);
+$o9con-ban: unicode(eb2c);
+$o9con-calendar-end: unicode(eb2d);
+$o9con-trophy: unicode(eb2e);
+$o9con-thumbs-up: unicode(eb2f);
+$o9con-thumbs-down: unicode(eb30);
+$o9con-star-half-o: unicode(eb31);
+$o9con-square-o: unicode(eb32);
+$o9con-square-square-o: unicode(eb33);
+$o9con-snowflake: unicode(eb34);
+$o9con-smile: unicode(eb35);
+$o9con-respread: unicode(eb36);
+$o9con-respread-alt: unicode(eb37);
+$o9con-pencil-square-o: unicode(eb38);
+$o9con-no-edit: unicode(eb39);
+$o9con-minus-square-o: unicode(eb3a);
+$o9con-minus-circle-o: unicode(eb3b);
+$o9con-meh: unicode(eb3c);
+$o9con-lock: unicode(eb3d);
+$o9con-lock-open: unicode(eb3e);
+$o9con-lock-open-alt: unicode(eb3f);
+$o9con-lock-hole: unicode(eb40);
+$o9con-lock-filter: unicode(eb41);
+$o9con-lock-alt: unicode(eb42);
+$o9con-key: unicode(eb43);
+$o9con-key-alt: unicode(eb44);
+$o9con-frown: unicode(eb45);
+$o9con-flame: unicode(eb46);
+$o9con-flag: unicode(eb47);
+$o9con-flag-triangle: unicode(eb48);
+$o9con-flag-edge: unicode(eb49);
+$o9con-flag-checkered: unicode(eb4a);
+$o9con-flag-o: unicode(eb4b);
+$o9con-filter-lock: unicode(eb4c);
+$o9con-files-copy: unicode(eb4d);
+$o9con-exclamation: unicode(eb4e);
+$o9con-excel: unicode(eb4f);
+$o9con-edit-row: unicode(eb50);
+$o9con-edit-column: unicode(eb51);
+$o9con-dot-circle-o: unicode(eb52);
+$o9con-diamond: unicode(eb53);
+$o9con-comments-alt: unicode(eb54);
+$o9con-comment-copy: unicode(eb55);
+$o9con-comment-text: unicode(eb56);
+$o9con-comment-quote: unicode(eb57);
+$o9con-comment-new: unicode(eb58);
+$o9con-commenting-alt: unicode(eb59);
+$o9con-comment-cross: unicode(eb5a);
+$o9con-comment-check: unicode(eb5b);
+$o9con-circle-o-notch: unicode(eb5c);
+$o9con-check-square-o: unicode(eb5d);
+$o9con-comments-o: unicode(eb5e);
+$o9con-comment-o: unicode(eb5f);
+$o9con-commenting-o: unicode(eb60);
+$o9con-certificate: unicode(eb61);
+$o9con-calendar-warning: unicode(eb62);
+$o9con-calendar-times-o: unicode(eb63);
+$o9con-calendar-start: unicode(eb64);
+$o9con-calendar-progress: unicode(eb65);
+$o9con-calendar-plus-o: unicode(eb66);
+$o9con-calendar-minus-o: unicode(eb67);
+$o9con-asterisk-alt: unicode(eb68);
+$o9con-calendar-check-o: unicode(eb69);
+$o9con-calendar: unicode(eb6a);
+$o9con-asterisk-o: unicode(eb6b);
+$o9con-wrench: unicode(eb6c);
+$o9con-wifi: unicode(eb6d);
+$o9con-umbrella: unicode(eb6e);
+$o9con-push-pin: unicode(eb6f);
+$o9con-sign-in: unicode(eb71);
+$o9con-umbrella-rain: unicode(eb72);
+$o9con-export: unicode(eb73);
+$o9con-tile-layout: unicode(eb74);
+$o9con-share-circle: unicode(eb75);
+$o9con-terminal: unicode(eb76);
+$o9con-telephone: unicode(eb77);
+$o9con-target: unicode(eb78);
+$o9con-tags: unicode(eb79);
+$o9con-tablet: unicode(eb7a);
+$o9con-sun-o: unicode(eb7b);
+$o9con-stethoscope: unicode(eb7c);
+$o9con-stack: unicode(eb7d);
+$o9con-stack-overflow: unicode(eb7e);
+$o9con-stack-exchange: unicode(eb7f);
+$o9con-slack: unicode(eb80);
+$o9con-signal-alt: unicode(eb81);
+$o9con-sign-out: unicode(eb82);
+$o9con-share-alt: unicode(eb83);
+$o9con-rss: unicode(eb84);
+$o9con-share-alt-square: unicode(eb85);
+$o9con-retweet-alt: unicode(eb86);
+$o9con-rss-square: unicode(eb87);
+$o9con-scenario: unicode(eb88);
+$o9con-calculator: unicode(eb89);
+$o9con-binoculars: unicode(eb8a);
+$o9con-at: unicode(eb8b);
+$o9con-repeat: unicode(eb8c);
+$o9con-recycle: unicode(eb8d);
+$o9con-quote-right: unicode(eb8e);
+$o9con-quote-left: unicode(eb8f);
+$o9con-question: unicode(eb90);
+$o9con-question-circle: unicode(eb91);
+$o9con-qrcode: unicode(eb92);
+$o9con-puzzle-piece: unicode(eb93);
+$o9con-thumb-tack-alt: unicode(eb94);
+$o9con-pull-request: unicode(eb95);
+$o9con-process: unicode(eb96);
+$o9con-printer: unicode(eb97);
+$o9con-power-off: unicode(eb98);
+$o9con-group: unicode(eb99);
+$o9con-paper-plane: unicode(eb9a);
+$o9con-paper-plane-land: unicode(eb9b);
+$o9con-online: unicode(eb9c);
+$o9con-no-call: unicode(eb9d);
+$o9con-monitor: unicode(eb9e);
+$o9con-mobile-alt: unicode(eb9f);
+$o9con-missed-call: unicode(eba0);
+$o9con-merge-git: unicode(eba1);
+$o9con-map-pin: unicode(eba2);
+$o9con-male-o: unicode(eba3);
+$o9con-magnet: unicode(eba4);
+$o9con-magic: unicode(eba5);
+$o9con-lightbulb-o: unicode(eba6);
+$o9con-lightbulb-glow: unicode(eba7);
+$o9con-life-bouy: unicode(eba8);
+$o9con-leaf: unicode(eba9);
+$o9con-laptop: unicode(ebaa);
+$o9con-keyboard-o: unicode(ebab);
+$o9con-inr: unicode(ebac);
+$o9con-inbox: unicode(ebad);
+$o9con-history: unicode(ebae);
+$o9con-heart-o: unicode(ebaf);
+$o9con-hdd-o: unicode(ebb0);
+$o9con-graduation-cap: unicode(ebb1);
+$o9con-globe: unicode(ebb2);
+$o9con-gift: unicode(ebb3);
+$o9con-geo-marker: unicode(ebb4);
+$o9con-gbp: unicode(ebb5);
+$o9con-times-square: unicode(ebb6);
+$o9con-folder-open: unicode(ebb7);
+$o9con-flask: unicode(ebb8);
+$o9con-flash: unicode(ebb9);
+$o9con-fire: unicode(ebba);
+$o9con-fire-extinguisher: unicode(ebbb);
+$o9con-file-cabinet: unicode(ebbc);
+$o9con-female-o: unicode(ebbd);
+$o9con-eur: unicode(ebbe);
+$o9con-envelope-square: unicode(ebbf);
+$o9con-envelope-open-o: unicode(ebc0);
+$o9con-times-circle: unicode(ebc1);
+$o9con-empire: unicode(ebc2);
+$o9con-dollar: unicode(ebc3);
+$o9con-desktop-alt: unicode(ebc4);
+$o9con-database-alt: unicode(ebc5);
+$o9con-database-search: unicode(ebc6);
+$o9con-database-protection: unicode(ebc7);
+$o9con-database-encryption: unicode(ebc8);
+$o9con-database-admin: unicode(ebc9);
+$o9con-dashboard: unicode(ebca);
+$o9con-cny: unicode(ebcb);
+$o9con-crosshairs: unicode(ebcc);
+$o9con-crop: unicode(ebcd);
+$o9con-compass: unicode(ebce);
+$o9con-compare-git: unicode(ebcf);
+$o9con-code: unicode(ebd0);
+$o9con-code-fork: unicode(ebd1);
+$o9con-cloud: unicode(ebd2);
+$o9con-circle-o: unicode(ebd3);
+$o9con-circle: unicode(ebd4);
+$o9con-cellular-network: unicode(ebd5);
+$o9con-call: unicode(ebd6);
+$o9con-call-alt: unicode(ebd7);
+$o9con-bolt: unicode(ebd8);
+$o9con-bullseye: unicode(ebd9);
+$o9con-bookmark-o: unicode(ebda);
+$o9con-antenna: unicode(ebdb);
+$o9con-address-book: unicode(ebdc);
+$o9con-record-circle: unicode(ebdd);
+$o9con-resume-square: unicode(ebde);
+$o9con-eject: unicode(ebdf);
+$o9con-volume-up: unicode(ebe0);
+$o9con-volume-mute: unicode(ebe1);
+$o9con-volume-mid: unicode(ebe2);
+$o9con-volume-low: unicode(ebe3);
+$o9con-volume-high: unicode(ebe4);
+$o9con-volume-down: unicode(ebe5);
+$o9con-video: unicode(ebe6);
+$o9con-video-rec: unicode(ebe7);
+$o9con-stop: unicode(ebe8);
+$o9con-stop-square: unicode(ebe9);
+$o9con-stop-circle: unicode(ebea);
+$o9con-spreaker-translate: unicode(ebeb);
+$o9con-speaker: unicode(ebec);
+$o9con-shuffle: unicode(ebed);
+$o9con-fast-backward: unicode(ebee);
+$o9con-rewind-square: unicode(ebef);
+$o9con-rewind-circle: unicode(ebf0);
+$o9con-resume: unicode(ebf1);
+$o9con-fast-forward-circle: unicode(ebf2);
+$o9con-resume-circle: unicode(ebf3);
+$o9con-repeat-all: unicode(ebf4);
+$o9con-repeat-one: unicode(ebf5);
+$o9con-repeat-one-alt: unicode(ebf6);
+$o9con-repeat-alt: unicode(ebf7);
+$o9con-record: unicode(ebf8);
+$o9con-record-square: unicode(ebf9);
+$o9con-prev-circle: unicode(ebfa);
+$o9con-prev: unicode(ebfb);
+$o9con-prev-square: unicode(ebfc);
+$o9con-next: unicode(ebfd);
+$o9con-play: unicode(ebfe);
+$o9con-play-square: unicode(ebff);
+$o9con-play-circle: unicode(ec00);
+$o9con-picture: unicode(ec01);
+$o9con-pause: unicode(ec02);
+$o9con-pause-square: unicode(ec03);
+$o9con-pause-circle: unicode(ec04);
+$o9con-music: unicode(ec05);
+$o9con-next-square: unicode(ec06);
+$o9con-next-circle: unicode(ec07);
+$o9con-mute: unicode(ec08);
+$o9con-insert-square: unicode(ec09);
+$o9con-insert: unicode(ec0a);
+$o9con-language: unicode(ec0b);
+$o9con-eject-square: unicode(ec0c);
+$o9con-microphone: unicode(ec0d);
+$o9con-microphone-slash: unicode(ec0e);
+$o9con-insert-circle: unicode(ec0f);
+$o9con-film: unicode(ec10);
+$o9con-fast-forward: unicode(ec11);
+$o9con-fast-forward-square: unicode(ec12);
+$o9con-eject-circle: unicode(ec13);
+$o9con-arrows-o: unicode(ec14);
+$o9con-arrows-alt-o: unicode(ec15);
+$o9con-bar-chart-o: unicode(ec16);
+$o9con-bookmark: unicode(ec17);
+$o9con-calendar-o: unicode(ec18);
+$o9con-chain-broken: unicode(ec19);
+$o9con-chain: unicode(ec1a);
+$o9con-check-circle: unicode(ec1b);
+$o9con-check-square: unicode(ec1c);
+$o9con-check-square-o-alt: unicode(ec1d);
+$o9con-circle-thin: unicode(ec1e);
+$o9con-columns: unicode(ec1f);
+$o9con-external-link-square: unicode(ec21);
+$o9con-forward: unicode(ec22);
+$o9con-backward: unicode(ec23);
+$o9con-files: unicode(ec24);
+$o9con-area-chart-xy: unicode(ec25);
+$o9con-heart: unicode(ec26);
+$o9con-male-alt: unicode(ec27);
+$o9con-female-alt: unicode(ec28);
+$o9con-combo-chart-alt: unicode(ec29);
+$o9con-geo-marker-o: unicode(ec2a);
+$o9con-minus-circle: unicode(ec2b);
+$o9con-minus-square: unicode(ec2c);
+$o9con-paper-plane-send: unicode(ec2d);
+$o9con-pencil-square: unicode(ec2e);
+$o9con-phone-square: unicode(ec2f);
+$o9con-plus-circle: unicode(ec30);
+$o9con-plus-square: unicode(ec31);
+$o9con-retweet: unicode(ec32);
+$o9con-share-square-o: unicode(ec33);
+$o9con-share-square: unicode(ec34);
+$o9con-square: unicode(ec35);
+$o9con-star: unicode(ec36);
+$o9con-thumb-tack: unicode(ec37);
+$o9con-info: unicode(ec39);
+$o9con-map-marker: unicode(ec3a);
+$o9con-thermometer-three-quarters: unicode(ec3b);
+$o9con-thermometer-quarter: unicode(ec3c);
+$o9con-ship: unicode(ec3d);
+$o9con-window-restore: unicode(ec3e);
+$o9con-window-minimize: unicode(ec3f);
+$o9con-window-maximize: unicode(ec40);
+$o9con-window-close: unicode(ec41);
+$o9con-wheelchair: unicode(ec42);
+$o9con-wheelchair-alt: unicode(ec43);
+$o9con-train: unicode(ec45);
+$o9con-plane: unicode(ec46);
+$o9con-road: unicode(ec47);
+$o9con-thermometer: unicode(ec48);
+$o9con-ticket: unicode(ec49);
+$o9con-ticket-add: unicode(ec4a);
+$o9con-thermometer-half: unicode(ec4b);
+$o9con-thermometer-full: unicode(ec4c);
+$o9con-thermometer-empty: unicode(ec4d);
+$o9con-taxi: unicode(ec4e);
+$o9con-superpowers: unicode(ec4f);
+$o9con-subway: unicode(ec50);
+$o9con-space-shuttle: unicode(ec51);
+$o9con-shopping-cart: unicode(ec52);
+$o9con-shopping-basket: unicode(ec53);
+$o9con-shopping-bag: unicode(ec54);
+$o9con-industry-alt: unicode(ec55);
+$o9con-shield: unicode(ec56);
+$o9con-hourglass: unicode(ec57);
+$o9con-plug: unicode(ec59);
+$o9con-id-card: unicode(ec5a);
+$o9con-phone-book: unicode(ec5b);
+$o9con-pdf-download: unicode(ec5c);
+$o9con-paint-brush: unicode(ec5d);
+$o9con-object-ungroup: unicode(ec5e);
+$o9con-object-group: unicode(ec5f);
+$o9con-o9-logo: unicode(ec60);
+$o9con-o9-circle: unicode(ec61);
+$o9con-newspaper-o: unicode(ec62);
+$o9con-notification: unicode(ec63);
+$o9con-network-expand: unicode(ec65);
+$o9con-network-collapse: unicode(ec66);
+$o9con-mouse-pointer: unicode(ec67);
+$o9con-motorcycle: unicode(ec68);
+$o9con-moon-star: unicode(ec69);
+$o9con-money: unicode(ec6a);
+$o9con-microchip: unicode(ec6b);
+$o9con-map: unicode(ec6c);
+$o9con-map-signs: unicode(ec6d);
+$o9con-mail-write: unicode(ec6e);
+$o9con-mail-o9: unicode(ec6f);
+$o9con-mail-new: unicode(ec70);
+$o9con-low-vision: unicode(ec71);
+$o9con-location-arrow: unicode(ec72);
+$o9con-institution: unicode(ec73);
+$o9con-coffee: unicode(ec74);
+$o9con-hourglass-start: unicode(ec75);
+$o9con-id-badge: unicode(ec76);
+$o9con-i-cursor: unicode(ec77);
+$o9con-hotel: unicode(ec78);
+$o9con-handshake-o: unicode(ec79);
+$o9con-hourglass-o: unicode(ec7a);
+$o9con-hourglass-end: unicode(ec7b);
+$o9con-adjust: unicode(ec7c);
+$o9con-heartbeat: unicode(ec7d);
+$o9con-headphones: unicode(ec7e);
+$o9con-hashtag-alt: unicode(ec7f);
+$o9con-glass: unicode(ec80);
+$o9con-fighter-jet: unicode(ec81);
+$o9con-gavel: unicode(ec82);
+$o9con-gamepad: unicode(ec83);
+$o9con-futbol-o: unicode(ec84);
+$o9con-ambulance: unicode(ec85);
+$o9con-fax: unicode(ec86);
+$o9con-eyedropper: unicode(ec87);
+$o9con-expand-group: unicode(ec88);
+$o9con-drivers-license: unicode(ec89);
+$o9con-database: unicode(ec8a);
+$o9con-cutlery: unicode(ec8b);
+$o9con-credit-card: unicode(ec8c);
+$o9con-credit-card-alt: unicode(ec8d);
+$o9con-collapse-group: unicode(ec8e);
+$o9con-bug: unicode(ec8f);
+$o9con-chart-progress: unicode(ec90);
+$o9con-cart-plus: unicode(ec91);
+$o9con-cart-arrow-down: unicode(ec92);
+$o9con-car: unicode(ec93);
+$o9con-cab: unicode(ec94);
+$o9con-bus: unicode(ec95);
+$o9con-bullhorn: unicode(ec96);
+$o9con-building: unicode(ec97);
+$o9con-american-sign-language-interpreting: unicode(ec98);
+$o9con-briefcase: unicode(ec99);
+$o9con-braille: unicode(ec9a);
+$o9con-book-x: unicode(ec9b);
+$o9con-book-excel: unicode(ec9c);
+$o9con-bomb: unicode(ec9d);
+$o9con-bluetooth: unicode(ec9e);
+$o9con-bluetooth-b: unicode(ec9f);
+$o9con-old: unicode(eca0);
+$o9con-birthday-cake: unicode(eca1);
+$o9con-battery: unicode(eca2);
+$o9con-battery-three-quarters: unicode(eca3);
+$o9con-bed: unicode(eca4);
+$o9con-bicycle: unicode(eca5);
+$o9con-bell-slash: unicode(eca6);
+$o9con-battery-quarter: unicode(eca7);
+$o9con-battery-half: unicode(eca8);
+$o9con-battery-empty: unicode(eca9);
+$o9con-barcode: unicode(ecaa);
+$o9con-bank: unicode(ecab);
+$o9con-balance-scale: unicode(ecac);
+$o9con-automobile: unicode(ecad);
+$o9con-archive: unicode(ecae);
+$o9con-anchor: unicode(ecaf);
+$o9con-address-card: unicode(ecb0);
+$o9con-female: unicode(ecb1);
+$o9con-webhook-o: unicode(ecb2);
+$o9con-tty: unicode(ecb3);
+$o9con-paper-plane-o: unicode(ecb4);
+$o9con-area-chart: unicode(ecb5);
+$o9con-moon-o: unicode(ecb6);
+$o9con-mobile: unicode(ecb7);
+$o9con-male: unicode(ecb8);
+$o9con-industry: unicode(ecb9);
+$o9con-hashtag: unicode(ecba);
+$o9con-folder-add: unicode(ecbb);
+$o9con-desktop: unicode(ecbc);
+$o9con-blind: unicode(ecbd);
+$o9con-signal: unicode(ecbe);
+$o9con-components: unicode(ecbf);
+$o9con-bath: unicode(ecc0);
+$o9con-bandcamp: unicode(ecc1);
+$o9con-beer: unicode(ecc2);
+$o9con-cc: unicode(ecc3);
+$o9con-cc-o: unicode(ecc4);
+$o9con-camera: unicode(ecc5);
+$o9con-camera-retro: unicode(ecc6);
+$o9con-btc: unicode(ecc7);
+$o9con-assistive-listening-systems: unicode(ecc8);
+$o9con-3d-model: unicode(ecc9);
+$o9con-hand-spock-o: unicode(ecca);
+$o9con-hand-scissors-o: unicode(eccb);
+$o9con-hand-rock-o: unicode(eccc);
+$o9con-hand-pointer-o: unicode(eccd);
+$o9con-hand-peace-o: unicode(ecce);
+$o9con-hand-paper-o: unicode(eccf);
+$o9con-gg: unicode(ecd0);
+$o9con-doctor-male: unicode(ecd1);
+$o9con-filter-check: unicode(ecd2);
+$o9con-drawing-compass: unicode(ecd3);
+$o9con-gg-circle: unicode(ecd4);
+$o9con-deaf: unicode(ecd5);
+$o9con-diversity: unicode(ecd6);
+$o9con-deviation: unicode(ecd7);
+$o9con-doctor-female: unicode(ecd8);
+$o9con-comment-help-alt: unicode(ecd9);
+$o9con-child: unicode(ecda);
+$o9con-child-alt: unicode(ecdb);
+$o9con-cup: unicode(ecdc);
+$o9con-copyright: unicode(ecdd);
+$o9con-width: unicode(ecde);
+$o9con-volume-control-phone: unicode(ecdf);
+$o9con-viacoin: unicode(ece0);
+$o9con-user-times: unicode(ece1);
+$o9con-try: unicode(ece2);
+$o9con-user-edit: unicode(ece3);
+$o9con-universal-access: unicode(ece4);
+$o9con-user-plus: unicode(ece5);
+$o9con-trademark: unicode(ece6);
+$o9con-th-large: unicode(ece7);
+$o9con-tape: unicode(ece8);
+$o9con-suitcase: unicode(ece9);
+$o9con-street-view: unicode(ecea);
+$o9con-stop-watch: unicode(eceb);
+$o9con-states: unicode(ecec);
+$o9con-size: unicode(eced);
+$o9con-shower: unicode(ecee);
+$o9con-ruler: unicode(ecef);
+$o9con-rub: unicode(ecf0);
+$o9con-registered-trademark: unicode(ecf1);
+$o9con-medkit: unicode(ecf2);
+$o9con-hand-lizard-o: unicode(ecf3);
+$o9con-hand-clap: unicode(ecf4);
+$o9con-h-square: unicode(ecf5);
+$o9con-measure-tools: unicode(ecf6);
+$o9con-length: unicode(ecf7);
+$o9con-krw: unicode(ecf8);
+$o9con-ils: unicode(ecf9);
+$o9con-hospital-o: unicode(ecfa);
+$o9con-height: unicode(ecfb);
+$o9con-comment: unicode(ecfc);
+$o9con-commenting: unicode(ecfd);
+$o9con-comments: unicode(ecfe);
+$o9con-split-up: unicode(ecff);
+$o9con-trend-down: unicode(ed00);
+$o9con-trend-up: unicode(ed01);
+$o9con-turn-down-left: unicode(ed02);
+$o9con-turn-down-right: unicode(ed03);
+$o9con-turn-left-down: unicode(ed04);
+$o9con-turn-left-up: unicode(ed05);
+$o9con-turn-right-down: unicode(ed06);
+$o9con-turn-right-up: unicode(ed07);
+$o9con-turn-up-left: unicode(ed08);
+$o9con-turn-up-right: unicode(ed09);
+$o9con-merge-up: unicode(ed0a);
+$o9con-mars-double: unicode(ed0b);
+$o9con-mercury: unicode(ed0c);
+$o9con-neuter: unicode(ed0d);
+$o9con-transgender-alt: unicode(ed0e);
+$o9con-transgender: unicode(ed0f);
+$o9con-venus-double: unicode(ed10);
+$o9con-venus-mars: unicode(ed11);
+$o9con-mars-stroke: unicode(ed12);
+$o9con-mars-stroke-v: unicode(ed13);
+$o9con-mars-stroke-h: unicode(ed14);
+$o9con-legal: unicode(ed15);
+$o9con-no-video: unicode(ed16);
+$o9con-paw: unicode(ed17);
+$o9con-spoon: unicode(ed18);
+$o9con-th-list: unicode(ed19);
+$o9con-tree: unicode(ed1a);
+$o9con-user-secret: unicode(ed1b);
+$o9con-video-camera: unicode(ed1c);
+$o9con-control-room: unicode(ed1d);
+$o9con-control-tower: unicode(ed1e);
+$o9con-airport-tower: unicode(ed1f);
+$o9con-legend: unicode(ed22);
+$o9con-edge: unicode(ed23);
+$o9con-select-area: unicode(ed24);
+$o9con-edge-alt: unicode(ed25);
+$o9con-triangle-shape: unicode(ed26);
+$o9con-circle-shape: unicode(ed27);
+$o9con-diamond-shape: unicode(ed28);
+$o9con-waterfall-chart: unicode(ed29);
+$o9con-warehouse: unicode(ed2a);
+$o9con-unpacking: unicode(ed2b);
+$o9con-supply: unicode(ed2c);
+$o9con-supplier: unicode(ed2d);
+$o9con-store: unicode(ed2e);
+$o9con-store-cart: unicode(ed2f);
+$o9con-select-check: unicode(ed30);
+$o9con-resource-manufacture: unicode(ed31);
+$o9con-plus-minus: unicode(ed32);
+$o9con-plus-minus-alt: unicode(ed33);
+$o9con-packing: unicode(ed34);
+$o9con-package: unicode(ed35);
+$o9con-open-parcel: unicode(ed36);
+$o9con-network-node: unicode(ed37);
+$o9con-minus-plus: unicode(ed38);
+$o9con-manufacturing-plant: unicode(ed39);
+$o9con-unlock-full: unicode(ed3a);
+$o9con-left-right: unicode(ed3b);
+$o9con-hexagon-shape: unicode(ed3c);
+$o9con-delivery: unicode(ed3d);
+$o9con-delivery-truck: unicode(ed3e);
+$o9con-delivery-store: unicode(ed3f);
+$o9con-collapse-up: unicode(ed40);
+$o9con-collapse-down: unicode(ed41);
+$o9con-building-manufacture: unicode(ed42);
+
+.o9con-arrow-circle-left::before {
+  content: $o9con-arrow-circle-left;
+}
+
+.o9con-angle-up::before {
+  content: $o9con-angle-up;
+}
+
+.o9con-hand-o-down::before {
+  content: $o9con-hand-o-down;
+}
+
+.o9con-long-arrow-up::before {
+  content: $o9con-long-arrow-up;
+}
+
+.o9con-long-arrow-right::before {
+  content: $o9con-long-arrow-right;
+}
+
+.o9con-long-arrow-left::before {
+  content: $o9con-long-arrow-left;
+}
+
+.o9con-long-arrow-down::before {
+  content: $o9con-long-arrow-down;
+}
+
+.o9con-hand-o-up::before {
+  content: $o9con-hand-o-up;
+}
+
+.o9con-hand-o-right::before {
+  content: $o9con-hand-o-right;
+}
+
+.o9con-hand-o-left::before {
+  content: $o9con-hand-o-left;
+}
+
+.o9con-arrow-left::before {
+  content: $o9con-arrow-left;
+}
+
+.o9con-exchange::before {
+  content: $o9con-exchange;
+}
+
+.o9con-chevron::before {
+  content: $o9con-chevron;
+}
+
+.o9con-chevron-up::before {
+  content: $o9con-chevron-up;
+}
+
+.o9con-chevron-right::before {
+  content: $o9con-chevron-right;
+}
+
+.o9con-chevron-left::before {
+  content: $o9con-chevron-left;
+}
+
+.o9con-chevron-down::before {
+  content: $o9con-chevron-down;
+}
+
+.o9con-chevron-circle-up::before {
+  content: $o9con-chevron-circle-up;
+}
+
+.o9con-chevron-circle-right::before {
+  content: $o9con-chevron-circle-right;
+}
+
+.o9con-chevron-circle-left::before {
+  content: $o9con-chevron-circle-left;
+}
+
+.o9con-chevron-circle-down::before {
+  content: $o9con-chevron-circle-down;
+}
+
+.o9con-caret-up::before {
+  content: $o9con-caret-up;
+}
+
+.o9con-caret-unfold-v::before {
+  content: $o9con-caret-unfold-v;
+}
+
+.o9con-caret-unfold-h::before {
+  content: $o9con-caret-unfold-h;
+}
+
+.o9con-caret-square-o-up::before {
+  content: $o9con-caret-square-o-up;
+}
+
+.o9con-caret-square-o-right::before {
+  content: $o9con-caret-square-o-right;
+}
+
+.o9con-caret-square-o-left::before {
+  content: $o9con-caret-square-o-left;
+}
+
+.o9con-caret-square-o-down::before {
+  content: $o9con-caret-square-o-down;
+}
+
+.o9con-caret-scroll-v::before {
+  content: $o9con-caret-scroll-v;
+}
+
+.o9con-caret-scroll-h::before {
+  content: $o9con-caret-scroll-h;
+}
+
+.o9con-caret-right::before {
+  content: $o9con-caret-right;
+}
+
+.o9con-caret-left::before {
+  content: $o9con-caret-left;
+}
+
+.o9con-caret-down::before {
+  content: $o9con-caret-down;
+}
+
+.o9con-arrows-alt::before {
+  content: $o9con-arrows-alt;
+}
+
+.o9con-arrows-v::before {
+  content: $o9con-arrows-v;
+}
+
+.o9con-arrows-h::before {
+  content: $o9con-arrows-h;
+}
+
+.o9con-arrows::before {
+  content: $o9con-arrows;
+}
+
+.o9con-arrow-up::before {
+  content: $o9con-arrow-up;
+}
+
+.o9con-arrow-right::before {
+  content: $o9con-arrow-right;
+}
+
+.o9con-arrow-circle-o-up::before {
+  content: $o9con-arrow-circle-o-up;
+}
+
+.o9con-arrow-down::before {
+  content: $o9con-arrow-down;
+}
+
+.o9con-arrow-circle-up::before {
+  content: $o9con-arrow-circle-up;
+}
+
+.o9con-arrow-circle-right::before {
+  content: $o9con-arrow-circle-right;
+}
+
+.o9con-angle-double-up::before {
+  content: $o9con-angle-double-up;
+}
+
+.o9con-arrow-circle-o-right::before {
+  content: $o9con-arrow-circle-o-right;
+}
+
+.o9con-arrow-circle-o-left::before {
+  content: $o9con-arrow-circle-o-left;
+}
+
+.o9con-arrow-circle-o-down::before {
+  content: $o9con-arrow-circle-o-down;
+}
+
+.o9con-angle-double-right::before {
+  content: $o9con-angle-double-right;
+}
+
+.o9con-arrow-circle-down::before {
+  content: $o9con-arrow-circle-down;
+}
+
+.o9con-angle-double-down::before {
+  content: $o9con-angle-double-down;
+}
+
+.o9con-angle-right::before {
+  content: $o9con-angle-right;
+}
+
+.o9con-angle-left::before {
+  content: $o9con-angle-left;
+}
+
+.o9con-angle-down::before {
+  content: $o9con-angle-down;
+}
+
+.o9con-angle-double-left::before {
+  content: $o9con-angle-double-left;
+}
+
+.o9con-book-help::before {
+  content: $o9con-book-help;
+}
+
+.o9con-bell-o::before {
+  content: $o9con-bell-o;
+}
+
+.o9con-book::before {
+  content: $o9con-book;
+}
+
+.o9con-webhook::before {
+  content: $o9con-webhook;
+}
+
+.o9con-view-report::before {
+  content: $o9con-view-report;
+}
+
+.o9con-users-alt::before {
+  content: $o9con-users-alt;
+}
+
+.o9con-user::before {
+  content: $o9con-user;
+}
+
+.o9con-user-setting::before {
+  content: $o9con-user-setting;
+}
+
+.o9con-user-management::before {
+  content: $o9con-user-management;
+}
+
+.o9con-transform::before {
+  content: $o9con-transform;
+}
+
+.o9con-tornado::before {
+  content: $o9con-tornado;
+}
+
+.o9con-tools::before {
+  content: $o9con-tools;
+}
+
+.o9con-toggle-on::before {
+  content: $o9con-toggle-on;
+}
+
+.o9con-toggle-off::before {
+  content: $o9con-toggle-off;
+}
+
+.o9con-tenant::before {
+  content: $o9con-tenant;
+}
+
+.o9con-template::before {
+  content: $o9con-template;
+}
+
+.o9con-tag::before {
+  content: $o9con-tag;
+}
+
+.o9con-support-ticket::before {
+  content: $o9con-support-ticket;
+}
+
+.o9con-star-o::before {
+  content: $o9con-star-o;
+}
+
+.o9con-spinner::before {
+  content: $o9con-spinner;
+}
+
+.o9con-sliders::before {
+  content: $o9con-sliders;
+}
+
+.o9con-setting-edit::before {
+  content: $o9con-setting-edit;
+}
+
+.o9con-search::before {
+  content: $o9con-search;
+}
+
+.o9con-rotate-90::before {
+  content: $o9con-rotate-90;
+}
+
+.o9con-rocket::before {
+  content: $o9con-rocket;
+}
+
+.o9con-report-config::before {
+  content: $o9con-report-config;
+}
+
+.o9con-refresh::before {
+  content: $o9con-refresh;
+}
+
+.o9con-priority-edge::before {
+  content: $o9con-priority-edge;
+}
+
+.o9con-plus::before {
+  content: $o9con-plus;
+}
+
+.o9con-plus-circle-o::before {
+  content: $o9con-plus-circle-o;
+}
+
+.o9con-pie-chart::before {
+  content: $o9con-pie-chart;
+}
+
+.o9con-performance-monitor::before {
+  content: $o9con-performance-monitor;
+}
+
+.o9con-open-new::before {
+  content: $o9con-open-new;
+}
+
+.o9con-omni-direction-alt::before {
+  content: $o9con-omni-direction-alt;
+}
+
+.o9con-minus::before {
+  content: $o9con-minus;
+}
+
+.o9con-logical-group::before {
+  content: $o9con-logical-group;
+}
+
+.o9con-list-ul::before {
+  content: $o9con-list-ul;
+}
+
+.o9con-lead-time::before {
+  content: $o9con-lead-time;
+}
+
+.o9con-info-circle::before {
+  content: $o9con-info-circle;
+}
+
+.o9con-home::before {
+  content: $o9con-home;
+}
+
+.o9con-home-alt::before {
+  content: $o9con-home-alt;
+}
+
+.o9con-groups::before {
+  content: $o9con-groups;
+}
+
+.o9con-grid-alt::before {
+  content: $o9con-grid-alt;
+}
+
+.o9con-grid::before {
+  content: $o9con-grid;
+}
+
+.o9con-full-screen::before {
+  content: $o9con-full-screen;
+}
+
+.o9con-filter::before {
+  content: $o9con-filter;
+}
+
+.o9con-external-link::before {
+  content: $o9con-external-link;
+}
+
+.o9con-exclamation-triangle::before {
+  content: $o9con-exclamation-triangle;
+}
+
+.o9con-exclamation-circle::before {
+  content: $o9con-exclamation-circle;
+}
+
+.o9con-envelope::before {
+  content: $o9con-envelope;
+}
+
+.o9con-envelope-o::before {
+  content: $o9con-envelope-o;
+}
+
+.o9con-ellipsis-v::before {
+  content: $o9con-ellipsis-v;
+}
+
+.o9con-ellipsis-h::before {
+  content: $o9con-ellipsis-h;
+}
+
+.o9con-desktop-heart::before {
+  content: $o9con-desktop-heart;
+}
+
+.o9con-desktop-cog::before {
+  content: $o9con-desktop-cog;
+}
+
+.o9con-desktop-cloud::before {
+  content: $o9con-desktop-cloud;
+}
+
+.o9con-designer::before {
+  content: $o9con-designer;
+}
+
+.o9con-data-management::before {
+  content: $o9con-data-management;
+}
+
+.o9con-cubes::before {
+  content: $o9con-cubes;
+}
+
+.o9con-cube::before {
+  content: $o9con-cube;
+}
+
+.o9con-create-task::before {
+  content: $o9con-create-task;
+}
+
+.o9con-create-scene::before {
+  content: $o9con-create-scene;
+}
+
+.o9con-comment-empty::before {
+  content: $o9con-comment-empty;
+}
+
+.o9con-comment-line::before {
+  content: $o9con-comment-line;
+}
+
+.o9con-comment-help::before {
+  content: $o9con-comment-help;
+}
+
+.o9con-cogs::before {
+  content: $o9con-cogs;
+}
+
+.o9con-cog::before {
+  content: $o9con-cog;
+}
+
+.o9con-code-editor::before {
+  content: $o9con-code-editor;
+}
+
+.o9con-cloud-upload::before {
+  content: $o9con-cloud-upload;
+}
+
+.o9con-cloud-download::before {
+  content: $o9con-cloud-download;
+}
+
+.o9con-close::before {
+  content: $o9con-close;
+}
+
+.o9con-times-circle-o::before {
+  content: $o9con-times-circle-o;
+}
+
+.o9con-times-square-o::before {
+  content: $o9con-times-square-o;
+}
+
+.o9con-clear::before {
+  content: $o9con-clear;
+}
+
+.o9con-check::before {
+  content: $o9con-check;
+}
+
+.o9con-plus-square-o::before {
+  content: $o9con-plus-square-o;
+}
+
+.o9con-check-circle-o::before {
+  content: $o9con-check-circle-o;
+}
+
+.o9con-bars::before {
+  content: $o9con-bars;
+}
+
+.o9con-apps::before {
+  content: $o9con-apps;
+}
+
+.o9con-add-book::before {
+  content: $o9con-add-book;
+}
+
+.o9con-folder-add-alt::before {
+  content: $o9con-folder-add-alt;
+}
+
+.o9con-add-view::before {
+  content: $o9con-add-view;
+}
+
+.o9con-bin-alt::before {
+  content: $o9con-bin-alt;
+}
+
+.o9con-bin::before {
+  content: $o9con-bin;
+}
+
+.o9con-book-download::before {
+  content: $o9con-book-download;
+}
+
+.o9con-bulk-edit::before {
+  content: $o9con-bulk-edit;
+}
+
+.o9con-calendar-date::before {
+  content: $o9con-calendar-date;
+}
+
+.o9con-caret-collapsed::before {
+  content: $o9con-caret-collapsed;
+}
+
+.o9con-caret-expanded::before {
+  content: $o9con-caret-expanded;
+}
+
+.o9con-clock-o::before {
+  content: $o9con-clock-o;
+}
+
+.o9con-color::before {
+  content: $o9con-color;
+}
+
+.o9con-download::before {
+  content: $o9con-download;
+}
+
+.o9con-duplicate::before {
+  content: $o9con-duplicate;
+}
+
+.o9con-edit-properties::before {
+  content: $o9con-edit-properties;
+}
+
+.o9con-comment-add::before {
+  content: $o9con-comment-add;
+}
+
+.o9con-edit-cell::before {
+  content: $o9con-edit-cell;
+}
+
+.o9con-factory-setting::before {
+  content: $o9con-factory-setting;
+}
+
+.o9con-favorite-download::before {
+  content: $o9con-favorite-download;
+}
+
+.o9con-filter-ext::before {
+  content: $o9con-filter-ext;
+}
+
+.o9con-folder::before {
+  content: $o9con-folder;
+}
+
+.o9con-add-presentation::before {
+  content: $o9con-add-presentation;
+}
+
+.o9con-eye-slash::before {
+  content: $o9con-eye-slash;
+}
+
+.o9con-layout::before {
+  content: $o9con-layout;
+}
+
+.o9con-notes::before {
+  content: $o9con-notes;
+}
+
+.o9con-pencil::before {
+  content: $o9con-pencil;
+}
+
+.o9con-play-presentation::before {
+  content: $o9con-play-presentation;
+}
+
+.o9con-presentation::before {
+  content: $o9con-presentation;
+}
+
+.o9con-rename::before {
+  content: $o9con-rename;
+}
+
+.o9con-show-view::before {
+  content: $o9con-show-view;
+}
+
+.o9con-eye::before {
+  content: $o9con-eye;
+}
+
+.o9con-swipe-right::before {
+  content: $o9con-swipe-right;
+}
+
+.o9con-table-column::before {
+  content: $o9con-table-column;
+}
+
+.o9con-table-row::before {
+  content: $o9con-table-row;
+}
+
+.o9con-truck::before {
+  content: $o9con-truck;
+}
+
+.o9con-up-down::before {
+  content: $o9con-up-down;
+}
+
+.o9con-upload::before {
+  content: $o9con-upload;
+}
+
+.o9con-full-screen-exit::before {
+  content: $o9con-full-screen-exit;
+}
+
+.o9con-zoom-out::before {
+  content: $o9con-zoom-out;
+}
+
+.o9con-execute::before {
+  content: $o9con-execute;
+}
+
+.o9con-zoom-in::before {
+  content: $o9con-zoom-in;
+}
+
+.o9con-add-textbox::before {
+  content: $o9con-add-textbox;
+}
+
+.o9con-align-center::before {
+  content: $o9con-align-center;
+}
+
+.o9con-align-justify::before {
+  content: $o9con-align-justify;
+}
+
+.o9con-bold::before {
+  content: $o9con-bold;
+}
+
+.o9con-clipboard::before {
+  content: $o9con-clipboard;
+}
+
+.o9con-align-right::before {
+  content: $o9con-align-right;
+}
+
+.o9con-cut::before {
+  content: $o9con-cut;
+}
+
+.o9con-decrease-font::before {
+  content: $o9con-decrease-font;
+}
+
+.o9con-tint::before {
+  content: $o9con-tint;
+}
+
+.o9con-eraser::before {
+  content: $o9con-eraser;
+}
+
+.o9con-file-o::before {
+  content: $o9con-file-o;
+}
+
+.o9con-file::before {
+  content: $o9con-file;
+}
+
+.o9con-floppy-o::before {
+  content: $o9con-floppy-o;
+}
+
+.o9con-font-color::before {
+  content: $o9con-font-color;
+}
+
+.o9con-font::before {
+  content: $o9con-font;
+}
+
+.o9con-header::before {
+  content: $o9con-header;
+}
+
+.o9con-increase-font::before {
+  content: $o9con-increase-font;
+}
+
+.o9con-dedent::before {
+  content: $o9con-dedent;
+}
+
+.o9con-indent::before {
+  content: $o9con-indent;
+}
+
+.o9con-italic::before {
+  content: $o9con-italic;
+}
+
+.o9con-link::before {
+  content: $o9con-link;
+}
+
+.o9con-list-alt::before {
+  content: $o9con-list-alt;
+}
+
+.o9con-align-left::before {
+  content: $o9con-align-left;
+}
+
+.o9con-copy::before {
+  content: $o9con-copy;
+}
+
+.o9con-background-color::before {
+  content: $o9con-background-color;
+}
+
+.o9con-paragraph::before {
+  content: $o9con-paragraph;
+}
+
+.o9con-list::before {
+  content: $o9con-list;
+}
+
+.o9con-rotate-right::before {
+  content: $o9con-rotate-right;
+}
+
+.o9con-strikethrough::before {
+  content: $o9con-strikethrough;
+}
+
+.o9con-subscript::before {
+  content: $o9con-subscript;
+}
+
+.o9con-superscript::before {
+  content: $o9con-superscript;
+}
+
+.o9con-text-height::before {
+  content: $o9con-text-height;
+}
+
+.o9con-rotate-left::before {
+  content: $o9con-rotate-left;
+}
+
+.o9con-list-ol::before {
+  content: $o9con-list-ol;
+}
+
+.o9con-paperclip::before {
+  content: $o9con-paperclip;
+}
+
+.o9con-unlink::before {
+  content: $o9con-unlink;
+}
+
+.o9con-text::before {
+  content: $o9con-text;
+}
+
+.o9con-underline::before {
+  content: $o9con-underline;
+}
+
+.o9con-text-width::before {
+  content: $o9con-text-width;
+}
+
+.o9con-expand::before {
+  content: $o9con-expand;
+}
+
+.o9con-expand-alt::before {
+  content: $o9con-expand-alt;
+}
+
+.o9con-compress::before {
+  content: $o9con-compress;
+}
+
+.o9con-shrink-nodes::before {
+  content: $o9con-shrink-nodes;
+}
+
+.o9con-shrink-corners::before {
+  content: $o9con-shrink-corners;
+}
+
+.o9con-mail-reply::before {
+  content: $o9con-mail-reply;
+}
+
+.o9con-mail-reply-all::before {
+  content: $o9con-mail-reply-all;
+}
+
+.o9con-level-up::before {
+  content: $o9con-level-up;
+}
+
+.o9con-level-down::before {
+  content: $o9con-level-down;
+}
+
+.o9con-full-screen-alt::before {
+  content: $o9con-full-screen-alt;
+}
+
+.o9con-share::before {
+  content: $o9con-share;
+}
+
+.o9con-focus-lock::before {
+  content: $o9con-focus-lock;
+}
+
+.o9con-focus-center::before {
+  content: $o9con-focus-center;
+}
+
+.o9con-focus-center-alt::before {
+  content: $o9con-focus-center-alt;
+}
+
+.o9con-expand-nodes::before {
+  content: $o9con-expand-nodes;
+}
+
+.o9con-compress-alt::before {
+  content: $o9con-compress-alt;
+}
+
+.o9con-sticky-note-o::before {
+  content: $o9con-sticky-note-o;
+}
+
+.o9con-file-stats::before {
+  content: $o9con-file-stats;
+}
+
+.o9con-file-image-o::before {
+  content: $o9con-file-image-o;
+}
+
+.o9con-file-text-o::before {
+  content: $o9con-file-text-o;
+}
+
+.o9con-files-o::before {
+  content: $o9con-files-o;
+}
+
+.o9con-file-word-o::before {
+  content: $o9con-file-word-o;
+}
+
+.o9con-file-video-o::before {
+  content: $o9con-file-video-o;
+}
+
+.o9con-file-powerpoint-o::before {
+  content: $o9con-file-powerpoint-o;
+}
+
+.o9con-file-pdf-o::before {
+  content: $o9con-file-pdf-o;
+}
+
+.o9con-file-setting::before {
+  content: $o9con-file-setting;
+}
+
+.o9con-file-script::before {
+  content: $o9con-file-script;
+}
+
+.o9con-archive-alt::before {
+  content: $o9con-archive-alt;
+}
+
+.o9con-file-bookmark::before {
+  content: $o9con-file-bookmark;
+}
+
+.o9con-file-music-o::before {
+  content: $o9con-file-music-o;
+}
+
+.o9con-file-add::before {
+  content: $o9con-file-add;
+}
+
+.o9con-file-favorite::before {
+  content: $o9con-file-favorite;
+}
+
+.o9con-file-excel-o::before {
+  content: $o9con-file-excel-o;
+}
+
+.o9con-file-code-o::before {
+  content: $o9con-file-code-o;
+}
+
+.o9con-file-archive-o::before {
+  content: $o9con-file-archive-o;
+}
+
+.o9con-usb::before {
+  content: $o9con-usb;
+}
+
+.o9con-hierarchy::before {
+  content: $o9con-hierarchy;
+}
+
+.o9con-line-chart-alt::before {
+  content: $o9con-line-chart-alt;
+}
+
+.o9con-timeline-v::before {
+  content: $o9con-timeline-v;
+}
+
+.o9con-tree-view::before {
+  content: $o9con-tree-view;
+}
+
+.o9con-tree-structure::before {
+  content: $o9con-tree-structure;
+}
+
+.o9con-timeline::before {
+  content: $o9con-timeline;
+}
+
+.o9con-sort-amount-asc::before {
+  content: $o9con-sort-amount-asc;
+}
+
+.o9con-timeline-h::before {
+  content: $o9con-timeline-h;
+}
+
+.o9con-tasks::before {
+  content: $o9con-tasks;
+}
+
+.o9con-stacked-bar-v::before {
+  content: $o9con-stacked-bar-v;
+}
+
+.o9con-stacked-bar-h::before {
+  content: $o9con-stacked-bar-h;
+}
+
+.o9con-sort-za-up::before {
+  content: $o9con-sort-za-up;
+}
+
+.o9con-sort-alpha-desc::before {
+  content: $o9con-sort-alpha-desc;
+}
+
+.o9con-sort-dsc-up::before {
+  content: $o9con-sort-dsc-up;
+}
+
+.o9con-sort-amount-desc::before {
+  content: $o9con-sort-amount-desc;
+}
+
+.o9con-sort-az-up::before {
+  content: $o9con-sort-az-up;
+}
+
+.o9con-sort-alpha-asc::before {
+  content: $o9con-sort-alpha-asc;
+}
+
+.o9con-sort-asc-up::before {
+  content: $o9con-sort-asc-up;
+}
+
+.o9con-heatmap::before {
+  content: $o9con-heatmap;
+}
+
+.o9con-sort-21-up::before {
+  content: $o9con-sort-21-up;
+}
+
+.o9con-sort-numeric-desc::before {
+  content: $o9con-sort-numeric-desc;
+}
+
+.o9con-sort-12-up::before {
+  content: $o9con-sort-12-up;
+}
+
+.o9con-sort-numeric-asc::before {
+  content: $o9con-sort-numeric-asc;
+}
+
+.o9con-scatter-plot::before {
+  content: $o9con-scatter-plot;
+}
+
+.o9con-rising::before {
+  content: $o9con-rising;
+}
+
+.o9con-profit::before {
+  content: $o9con-profit;
+}
+
+.o9con-profit-flag::before {
+  content: $o9con-profit-flag;
+}
+
+.o9con-table::before {
+  content: $o9con-table;
+}
+
+.o9con-pipeline::before {
+  content: $o9con-pipeline;
+}
+
+.o9con-pie-chart-alt::before {
+  content: $o9con-pie-chart-alt;
+}
+
+.o9con-normal-distribution::before {
+  content: $o9con-normal-distribution;
+}
+
+.o9con-network-nodes::before {
+  content: $o9con-network-nodes;
+}
+
+.o9con-mind-map::before {
+  content: $o9con-mind-map;
+}
+
+.o9con-min-val::before {
+  content: $o9con-min-val;
+}
+
+.o9con-max-val::before {
+  content: $o9con-max-val;
+}
+
+.o9con-maslow-pyramid::before {
+  content: $o9con-maslow-pyramid;
+}
+
+.o9con-loss::before {
+  content: $o9con-loss;
+}
+
+.o9con-line-chart::before {
+  content: $o9con-line-chart;
+}
+
+.o9con-flow-chart::before {
+  content: $o9con-flow-chart;
+}
+
+.o9con-bell-curve::before {
+  content: $o9con-bell-curve;
+}
+
+.o9con-combo-chart::before {
+  content: $o9con-combo-chart;
+}
+
+.o9con-blockchain::before {
+  content: $o9con-blockchain;
+}
+
+.o9con-falling::before {
+  content: $o9con-falling;
+}
+
+.o9con-doughnut-chart::before {
+  content: $o9con-doughnut-chart;
+}
+
+.o9con-bar-chart-v::before {
+  content: $o9con-bar-chart-v;
+}
+
+.o9con-bar-chart::before {
+  content: $o9con-bar-chart;
+}
+
+.o9con-bar-chart-h::before {
+  content: $o9con-bar-chart-h;
+}
+
+.o9con-area-chart-alt::before {
+  content: $o9con-area-chart-alt;
+}
+
+.o9con-asterisk::before {
+  content: $o9con-asterisk;
+}
+
+.o9con-ban::before {
+  content: $o9con-ban;
+}
+
+.o9con-calendar-end::before {
+  content: $o9con-calendar-end;
+}
+
+.o9con-trophy::before {
+  content: $o9con-trophy;
+}
+
+.o9con-thumbs-up::before {
+  content: $o9con-thumbs-up;
+}
+
+.o9con-thumbs-down::before {
+  content: $o9con-thumbs-down;
+}
+
+.o9con-star-half-o::before {
+  content: $o9con-star-half-o;
+}
+
+.o9con-square-o::before {
+  content: $o9con-square-o;
+}
+
+.o9con-square-square-o::before {
+  content: $o9con-square-square-o;
+}
+
+.o9con-snowflake::before {
+  content: $o9con-snowflake;
+}
+
+.o9con-smile::before {
+  content: $o9con-smile;
+}
+
+.o9con-respread::before {
+  content: $o9con-respread;
+}
+
+.o9con-respread-alt::before {
+  content: $o9con-respread-alt;
+}
+
+.o9con-pencil-square-o::before {
+  content: $o9con-pencil-square-o;
+}
+
+.o9con-no-edit::before {
+  content: $o9con-no-edit;
+}
+
+.o9con-minus-square-o::before {
+  content: $o9con-minus-square-o;
+}
+
+.o9con-minus-circle-o::before {
+  content: $o9con-minus-circle-o;
+}
+
+.o9con-meh::before {
+  content: $o9con-meh;
+}
+
+.o9con-lock::before {
+  content: $o9con-lock;
+}
+
+.o9con-lock-open::before {
+  content: $o9con-lock-open;
+}
+
+.o9con-lock-open-alt::before {
+  content: $o9con-lock-open-alt;
+}
+
+.o9con-lock-hole::before {
+  content: $o9con-lock-hole;
+}
+
+.o9con-lock-filter::before {
+  content: $o9con-lock-filter;
+}
+
+.o9con-lock-alt::before {
+  content: $o9con-lock-alt;
+}
+
+.o9con-key::before {
+  content: $o9con-key;
+}
+
+.o9con-key-alt::before {
+  content: $o9con-key-alt;
+}
+
+.o9con-frown::before {
+  content: $o9con-frown;
+}
+
+.o9con-flame::before {
+  content: $o9con-flame;
+}
+
+.o9con-flag::before {
+  content: $o9con-flag;
+}
+
+.o9con-flag-triangle::before {
+  content: $o9con-flag-triangle;
+}
+
+.o9con-flag-edge::before {
+  content: $o9con-flag-edge;
+}
+
+.o9con-flag-checkered::before {
+  content: $o9con-flag-checkered;
+}
+
+.o9con-flag-o::before {
+  content: $o9con-flag-o;
+}
+
+.o9con-filter-lock::before {
+  content: $o9con-filter-lock;
+}
+
+.o9con-files-copy::before {
+  content: $o9con-files-copy;
+}
+
+.o9con-exclamation::before {
+  content: $o9con-exclamation;
+}
+
+.o9con-excel::before {
+  content: $o9con-excel;
+}
+
+.o9con-edit-row::before {
+  content: $o9con-edit-row;
+}
+
+.o9con-edit-column::before {
+  content: $o9con-edit-column;
+}
+
+.o9con-dot-circle-o::before {
+  content: $o9con-dot-circle-o;
+}
+
+.o9con-diamond::before {
+  content: $o9con-diamond;
+}
+
+.o9con-comments-alt::before {
+  content: $o9con-comments-alt;
+}
+
+.o9con-comment-copy::before {
+  content: $o9con-comment-copy;
+}
+
+.o9con-comment-text::before {
+  content: $o9con-comment-text;
+}
+
+.o9con-comment-quote::before {
+  content: $o9con-comment-quote;
+}
+
+.o9con-comment-new::before {
+  content: $o9con-comment-new;
+}
+
+.o9con-commenting-alt::before {
+  content: $o9con-commenting-alt;
+}
+
+.o9con-comment-cross::before {
+  content: $o9con-comment-cross;
+}
+
+.o9con-comment-check::before {
+  content: $o9con-comment-check;
+}
+
+.o9con-circle-o-notch::before {
+  content: $o9con-circle-o-notch;
+}
+
+.o9con-check-square-o::before {
+  content: $o9con-check-square-o;
+}
+
+.o9con-comments-o::before {
+  content: $o9con-comments-o;
+}
+
+.o9con-comment-o::before {
+  content: $o9con-comment-o;
+}
+
+.o9con-commenting-o::before {
+  content: $o9con-commenting-o;
+}
+
+.o9con-certificate::before {
+  content: $o9con-certificate;
+}
+
+.o9con-calendar-warning::before {
+  content: $o9con-calendar-warning;
+}
+
+.o9con-calendar-times-o::before {
+  content: $o9con-calendar-times-o;
+}
+
+.o9con-calendar-start::before {
+  content: $o9con-calendar-start;
+}
+
+.o9con-calendar-progress::before {
+  content: $o9con-calendar-progress;
+}
+
+.o9con-calendar-plus-o::before {
+  content: $o9con-calendar-plus-o;
+}
+
+.o9con-calendar-minus-o::before {
+  content: $o9con-calendar-minus-o;
+}
+
+.o9con-asterisk-alt::before {
+  content: $o9con-asterisk-alt;
+}
+
+.o9con-calendar-check-o::before {
+  content: $o9con-calendar-check-o;
+}
+
+.o9con-calendar::before {
+  content: $o9con-calendar;
+}
+
+.o9con-asterisk-o::before {
+  content: $o9con-asterisk-o;
+}
+
+.o9con-wrench::before {
+  content: $o9con-wrench;
+}
+
+.o9con-wifi::before {
+  content: $o9con-wifi;
+}
+
+.o9con-umbrella::before {
+  content: $o9con-umbrella;
+}
+
+.o9con-push-pin::before {
+  content: $o9con-push-pin;
+}
+
+.o9con-sign-in::before {
+  content: $o9con-sign-in;
+}
+
+.o9con-umbrella-rain::before {
+  content: $o9con-umbrella-rain;
+}
+
+.o9con-export::before {
+  content: $o9con-export;
+}
+
+.o9con-tile-layout::before {
+  content: $o9con-tile-layout;
+}
+
+.o9con-share-circle::before {
+  content: $o9con-share-circle;
+}
+
+.o9con-terminal::before {
+  content: $o9con-terminal;
+}
+
+.o9con-telephone::before {
+  content: $o9con-telephone;
+}
+
+.o9con-target::before {
+  content: $o9con-target;
+}
+
+.o9con-tags::before {
+  content: $o9con-tags;
+}
+
+.o9con-tablet::before {
+  content: $o9con-tablet;
+}
+
+.o9con-sun-o::before {
+  content: $o9con-sun-o;
+}
+
+.o9con-stethoscope::before {
+  content: $o9con-stethoscope;
+}
+
+.o9con-stack::before {
+  content: $o9con-stack;
+}
+
+.o9con-stack-overflow::before {
+  content: $o9con-stack-overflow;
+}
+
+.o9con-stack-exchange::before {
+  content: $o9con-stack-exchange;
+}
+
+.o9con-slack::before {
+  content: $o9con-slack;
+}
+
+.o9con-signal-alt::before {
+  content: $o9con-signal-alt;
+}
+
+.o9con-sign-out::before {
+  content: $o9con-sign-out;
+}
+
+.o9con-share-alt::before {
+  content: $o9con-share-alt;
+}
+
+.o9con-rss::before {
+  content: $o9con-rss;
+}
+
+.o9con-share-alt-square::before {
+  content: $o9con-share-alt-square;
+}
+
+.o9con-retweet-alt::before {
+  content: $o9con-retweet-alt;
+}
+
+.o9con-rss-square::before {
+  content: $o9con-rss-square;
+}
+
+.o9con-scenario::before {
+  content: $o9con-scenario;
+}
+
+.o9con-calculator::before {
+  content: $o9con-calculator;
+}
+
+.o9con-binoculars::before {
+  content: $o9con-binoculars;
+}
+
+.o9con-at::before {
+  content: $o9con-at;
+}
+
+.o9con-repeat::before {
+  content: $o9con-repeat;
+}
+
+.o9con-recycle::before {
+  content: $o9con-recycle;
+}
+
+.o9con-quote-right::before {
+  content: $o9con-quote-right;
+}
+
+.o9con-quote-left::before {
+  content: $o9con-quote-left;
+}
+
+.o9con-question::before {
+  content: $o9con-question;
+}
+
+.o9con-question-circle::before {
+  content: $o9con-question-circle;
+}
+
+.o9con-qrcode::before {
+  content: $o9con-qrcode;
+}
+
+.o9con-puzzle-piece::before {
+  content: $o9con-puzzle-piece;
+}
+
+.o9con-thumb-tack-alt::before {
+  content: $o9con-thumb-tack-alt;
+}
+
+.o9con-pull-request::before {
+  content: $o9con-pull-request;
+}
+
+.o9con-process::before {
+  content: $o9con-process;
+}
+
+.o9con-printer::before {
+  content: $o9con-printer;
+}
+
+.o9con-power-off::before {
+  content: $o9con-power-off;
+}
+
+.o9con-group::before {
+  content: $o9con-group;
+}
+
+.o9con-paper-plane::before {
+  content: $o9con-paper-plane;
+}
+
+.o9con-paper-plane-land::before {
+  content: $o9con-paper-plane-land;
+}
+
+.o9con-online::before {
+  content: $o9con-online;
+}
+
+.o9con-no-call::before {
+  content: $o9con-no-call;
+}
+
+.o9con-monitor::before {
+  content: $o9con-monitor;
+}
+
+.o9con-mobile-alt::before {
+  content: $o9con-mobile-alt;
+}
+
+.o9con-missed-call::before {
+  content: $o9con-missed-call;
+}
+
+.o9con-merge-git::before {
+  content: $o9con-merge-git;
+}
+
+.o9con-map-pin::before {
+  content: $o9con-map-pin;
+}
+
+.o9con-male-o::before {
+  content: $o9con-male-o;
+}
+
+.o9con-magnet::before {
+  content: $o9con-magnet;
+}
+
+.o9con-magic::before {
+  content: $o9con-magic;
+}
+
+.o9con-lightbulb-o::before {
+  content: $o9con-lightbulb-o;
+}
+
+.o9con-lightbulb-glow::before {
+  content: $o9con-lightbulb-glow;
+}
+
+.o9con-life-bouy::before {
+  content: $o9con-life-bouy;
+}
+
+.o9con-leaf::before {
+  content: $o9con-leaf;
+}
+
+.o9con-laptop::before {
+  content: $o9con-laptop;
+}
+
+.o9con-keyboard-o::before {
+  content: $o9con-keyboard-o;
+}
+
+.o9con-inr::before {
+  content: $o9con-inr;
+}
+
+.o9con-inbox::before {
+  content: $o9con-inbox;
+}
+
+.o9con-history::before {
+  content: $o9con-history;
+}
+
+.o9con-heart-o::before {
+  content: $o9con-heart-o;
+}
+
+.o9con-hdd-o::before {
+  content: $o9con-hdd-o;
+}
+
+.o9con-graduation-cap::before {
+  content: $o9con-graduation-cap;
+}
+
+.o9con-globe::before {
+  content: $o9con-globe;
+}
+
+.o9con-gift::before {
+  content: $o9con-gift;
+}
+
+.o9con-geo-marker::before {
+  content: $o9con-geo-marker;
+}
+
+.o9con-gbp::before {
+  content: $o9con-gbp;
+}
+
+.o9con-times-square::before {
+  content: $o9con-times-square;
+}
+
+.o9con-folder-open::before {
+  content: $o9con-folder-open;
+}
+
+.o9con-flask::before {
+  content: $o9con-flask;
+}
+
+.o9con-flash::before {
+  content: $o9con-flash;
+}
+
+.o9con-fire::before {
+  content: $o9con-fire;
+}
+
+.o9con-fire-extinguisher::before {
+  content: $o9con-fire-extinguisher;
+}
+
+.o9con-file-cabinet::before {
+  content: $o9con-file-cabinet;
+}
+
+.o9con-female-o::before {
+  content: $o9con-female-o;
+}
+
+.o9con-eur::before {
+  content: $o9con-eur;
+}
+
+.o9con-envelope-square::before {
+  content: $o9con-envelope-square;
+}
+
+.o9con-envelope-open-o::before {
+  content: $o9con-envelope-open-o;
+}
+
+.o9con-times-circle::before {
+  content: $o9con-times-circle;
+}
+
+.o9con-empire::before {
+  content: $o9con-empire;
+}
+
+.o9con-dollar::before {
+  content: $o9con-dollar;
+}
+
+.o9con-desktop-alt::before {
+  content: $o9con-desktop-alt;
+}
+
+.o9con-database-alt::before {
+  content: $o9con-database-alt;
+}
+
+.o9con-database-search::before {
+  content: $o9con-database-search;
+}
+
+.o9con-database-protection::before {
+  content: $o9con-database-protection;
+}
+
+.o9con-database-encryption::before {
+  content: $o9con-database-encryption;
+}
+
+.o9con-database-admin::before {
+  content: $o9con-database-admin;
+}
+
+.o9con-dashboard::before {
+  content: $o9con-dashboard;
+}
+
+.o9con-cny::before {
+  content: $o9con-cny;
+}
+
+.o9con-crosshairs::before {
+  content: $o9con-crosshairs;
+}
+
+.o9con-crop::before {
+  content: $o9con-crop;
+}
+
+.o9con-compass::before {
+  content: $o9con-compass;
+}
+
+.o9con-compare-git::before {
+  content: $o9con-compare-git;
+}
+
+.o9con-code::before {
+  content: $o9con-code;
+}
+
+.o9con-code-fork::before {
+  content: $o9con-code-fork;
+}
+
+.o9con-cloud::before {
+  content: $o9con-cloud;
+}
+
+.o9con-circle-o::before {
+  content: $o9con-circle-o;
+}
+
+.o9con-circle::before {
+  content: $o9con-circle;
+}
+
+.o9con-cellular-network::before {
+  content: $o9con-cellular-network;
+}
+
+.o9con-call::before {
+  content: $o9con-call;
+}
+
+.o9con-call-alt::before {
+  content: $o9con-call-alt;
+}
+
+.o9con-bolt::before {
+  content: $o9con-bolt;
+}
+
+.o9con-bullseye::before {
+  content: $o9con-bullseye;
+}
+
+.o9con-bookmark-o::before {
+  content: $o9con-bookmark-o;
+}
+
+.o9con-antenna::before {
+  content: $o9con-antenna;
+}
+
+.o9con-address-book::before {
+  content: $o9con-address-book;
+}
+
+.o9con-record-circle::before {
+  content: $o9con-record-circle;
+}
+
+.o9con-resume-square::before {
+  content: $o9con-resume-square;
+}
+
+.o9con-eject::before {
+  content: $o9con-eject;
+}
+
+.o9con-volume-up::before {
+  content: $o9con-volume-up;
+}
+
+.o9con-volume-mute::before {
+  content: $o9con-volume-mute;
+}
+
+.o9con-volume-mid::before {
+  content: $o9con-volume-mid;
+}
+
+.o9con-volume-low::before {
+  content: $o9con-volume-low;
+}
+
+.o9con-volume-high::before {
+  content: $o9con-volume-high;
+}
+
+.o9con-volume-down::before {
+  content: $o9con-volume-down;
+}
+
+.o9con-video::before {
+  content: $o9con-video;
+}
+
+.o9con-video-rec::before {
+  content: $o9con-video-rec;
+}
+
+.o9con-stop::before {
+  content: $o9con-stop;
+}
+
+.o9con-stop-square::before {
+  content: $o9con-stop-square;
+}
+
+.o9con-stop-circle::before {
+  content: $o9con-stop-circle;
+}
+
+.o9con-spreaker-translate::before {
+  content: $o9con-spreaker-translate;
+}
+
+.o9con-speaker::before {
+  content: $o9con-speaker;
+}
+
+.o9con-shuffle::before {
+  content: $o9con-shuffle;
+}
+
+.o9con-fast-backward::before {
+  content: $o9con-fast-backward;
+}
+
+.o9con-rewind-square::before {
+  content: $o9con-rewind-square;
+}
+
+.o9con-rewind-circle::before {
+  content: $o9con-rewind-circle;
+}
+
+.o9con-resume::before {
+  content: $o9con-resume;
+}
+
+.o9con-fast-forward-circle::before {
+  content: $o9con-fast-forward-circle;
+}
+
+.o9con-resume-circle::before {
+  content: $o9con-resume-circle;
+}
+
+.o9con-repeat-all::before {
+  content: $o9con-repeat-all;
+}
+
+.o9con-repeat-one::before {
+  content: $o9con-repeat-one;
+}
+
+.o9con-repeat-one-alt::before {
+  content: $o9con-repeat-one-alt;
+}
+
+.o9con-repeat-alt::before {
+  content: $o9con-repeat-alt;
+}
+
+.o9con-record::before {
+  content: $o9con-record;
+}
+
+.o9con-record-square::before {
+  content: $o9con-record-square;
+}
+
+.o9con-prev-circle::before {
+  content: $o9con-prev-circle;
+}
+
+.o9con-prev::before {
+  content: $o9con-prev;
+}
+
+.o9con-prev-square::before {
+  content: $o9con-prev-square;
+}
+
+.o9con-next::before {
+  content: $o9con-next;
+}
+
+.o9con-play::before {
+  content: $o9con-play;
+}
+
+.o9con-play-square::before {
+  content: $o9con-play-square;
+}
+
+.o9con-play-circle::before {
+  content: $o9con-play-circle;
+}
+
+.o9con-picture::before {
+  content: $o9con-picture;
+}
+
+.o9con-pause::before {
+  content: $o9con-pause;
+}
+
+.o9con-pause-square::before {
+  content: $o9con-pause-square;
+}
+
+.o9con-pause-circle::before {
+  content: $o9con-pause-circle;
+}
+
+.o9con-music::before {
+  content: $o9con-music;
+}
+
+.o9con-next-square::before {
+  content: $o9con-next-square;
+}
+
+.o9con-next-circle::before {
+  content: $o9con-next-circle;
+}
+
+.o9con-mute::before {
+  content: $o9con-mute;
+}
+
+.o9con-insert-square::before {
+  content: $o9con-insert-square;
+}
+
+.o9con-insert::before {
+  content: $o9con-insert;
+}
+
+.o9con-language::before {
+  content: $o9con-language;
+}
+
+.o9con-eject-square::before {
+  content: $o9con-eject-square;
+}
+
+.o9con-microphone::before {
+  content: $o9con-microphone;
+}
+
+.o9con-microphone-slash::before {
+  content: $o9con-microphone-slash;
+}
+
+.o9con-insert-circle::before {
+  content: $o9con-insert-circle;
+}
+
+.o9con-film::before {
+  content: $o9con-film;
+}
+
+.o9con-fast-forward::before {
+  content: $o9con-fast-forward;
+}
+
+.o9con-fast-forward-square::before {
+  content: $o9con-fast-forward-square;
+}
+
+.o9con-eject-circle::before {
+  content: $o9con-eject-circle;
+}
+
+.o9con-arrows-o::before {
+  content: $o9con-arrows-o;
+}
+
+.o9con-arrows-alt-o::before {
+  content: $o9con-arrows-alt-o;
+}
+
+.o9con-bar-chart-o::before {
+  content: $o9con-bar-chart-o;
+}
+
+.o9con-bookmark::before {
+  content: $o9con-bookmark;
+}
+
+.o9con-calendar-o::before {
+  content: $o9con-calendar-o;
+}
+
+.o9con-chain-broken::before {
+  content: $o9con-chain-broken;
+}
+
+.o9con-chain::before {
+  content: $o9con-chain;
+}
+
+.o9con-check-circle::before {
+  content: $o9con-check-circle;
+}
+
+.o9con-check-square::before {
+  content: $o9con-check-square;
+}
+
+.o9con-check-square-o-alt::before {
+  content: $o9con-check-square-o-alt;
+}
+
+.o9con-circle-thin::before {
+  content: $o9con-circle-thin;
+}
+
+.o9con-columns::before {
+  content: $o9con-columns;
+}
+
+.o9con-external-link-square::before {
+  content: $o9con-external-link-square;
+}
+
+.o9con-forward::before {
+  content: $o9con-forward;
+}
+
+.o9con-backward::before {
+  content: $o9con-backward;
+}
+
+.o9con-files::before {
+  content: $o9con-files;
+}
+
+.o9con-area-chart-xy::before {
+  content: $o9con-area-chart-xy;
+}
+
+.o9con-heart::before {
+  content: $o9con-heart;
+}
+
+.o9con-male-alt::before {
+  content: $o9con-male-alt;
+}
+
+.o9con-female-alt::before {
+  content: $o9con-female-alt;
+}
+
+.o9con-combo-chart-alt::before {
+  content: $o9con-combo-chart-alt;
+}
+
+.o9con-geo-marker-o::before {
+  content: $o9con-geo-marker-o;
+}
+
+.o9con-minus-circle::before {
+  content: $o9con-minus-circle;
+}
+
+.o9con-minus-square::before {
+  content: $o9con-minus-square;
+}
+
+.o9con-paper-plane-send::before {
+  content: $o9con-paper-plane-send;
+}
+
+.o9con-pencil-square::before {
+  content: $o9con-pencil-square;
+}
+
+.o9con-phone-square::before {
+  content: $o9con-phone-square;
+}
+
+.o9con-plus-circle::before {
+  content: $o9con-plus-circle;
+}
+
+.o9con-plus-square::before {
+  content: $o9con-plus-square;
+}
+
+.o9con-retweet::before {
+  content: $o9con-retweet;
+}
+
+.o9con-share-square-o::before {
+  content: $o9con-share-square-o;
+}
+
+.o9con-share-square::before {
+  content: $o9con-share-square;
+}
+
+.o9con-square::before {
+  content: $o9con-square;
+}
+
+.o9con-star::before {
+  content: $o9con-star;
+}
+
+.o9con-thumb-tack::before {
+  content: $o9con-thumb-tack;
+}
+
+.o9con-info::before {
+  content: $o9con-info;
+}
+
+.o9con-map-marker::before {
+  content: $o9con-map-marker;
+}
+
+.o9con-thermometer-three-quarters::before {
+  content: $o9con-thermometer-three-quarters;
+}
+
+.o9con-thermometer-quarter::before {
+  content: $o9con-thermometer-quarter;
+}
+
+.o9con-ship::before {
+  content: $o9con-ship;
+}
+
+.o9con-window-restore::before {
+  content: $o9con-window-restore;
+}
+
+.o9con-window-minimize::before {
+  content: $o9con-window-minimize;
+}
+
+.o9con-window-maximize::before {
+  content: $o9con-window-maximize;
+}
+
+.o9con-window-close::before {
+  content: $o9con-window-close;
+}
+
+.o9con-wheelchair::before {
+  content: $o9con-wheelchair;
+}
+
+.o9con-wheelchair-alt::before {
+  content: $o9con-wheelchair-alt;
+}
+
+.o9con-train::before {
+  content: $o9con-train;
+}
+
+.o9con-plane::before {
+  content: $o9con-plane;
+}
+
+.o9con-road::before {
+  content: $o9con-road;
+}
+
+.o9con-thermometer::before {
+  content: $o9con-thermometer;
+}
+
+.o9con-ticket::before {
+  content: $o9con-ticket;
+}
+
+.o9con-ticket-add::before {
+  content: $o9con-ticket-add;
+}
+
+.o9con-thermometer-half::before {
+  content: $o9con-thermometer-half;
+}
+
+.o9con-thermometer-full::before {
+  content: $o9con-thermometer-full;
+}
+
+.o9con-thermometer-empty::before {
+  content: $o9con-thermometer-empty;
+}
+
+.o9con-taxi::before {
+  content: $o9con-taxi;
+}
+
+.o9con-superpowers::before {
+  content: $o9con-superpowers;
+}
+
+.o9con-subway::before {
+  content: $o9con-subway;
+}
+
+.o9con-space-shuttle::before {
+  content: $o9con-space-shuttle;
+}
+
+.o9con-shopping-cart::before {
+  content: $o9con-shopping-cart;
+}
+
+.o9con-shopping-basket::before {
+  content: $o9con-shopping-basket;
+}
+
+.o9con-shopping-bag::before {
+  content: $o9con-shopping-bag;
+}
+
+.o9con-industry-alt::before {
+  content: $o9con-industry-alt;
+}
+
+.o9con-shield::before {
+  content: $o9con-shield;
+}
+
+.o9con-hourglass::before {
+  content: $o9con-hourglass;
+}
+
+.o9con-plug::before {
+  content: $o9con-plug;
+}
+
+.o9con-id-card::before {
+  content: $o9con-id-card;
+}
+
+.o9con-phone-book::before {
+  content: $o9con-phone-book;
+}
+
+.o9con-pdf-download::before {
+  content: $o9con-pdf-download;
+}
+
+.o9con-paint-brush::before {
+  content: $o9con-paint-brush;
+}
+
+.o9con-object-ungroup::before {
+  content: $o9con-object-ungroup;
+}
+
+.o9con-object-group::before {
+  content: $o9con-object-group;
+}
+
+.o9con-o9-logo::before {
+  content: $o9con-o9-logo;
+}
+
+.o9con-o9-circle::before {
+  content: $o9con-o9-circle;
+}
+
+.o9con-newspaper-o::before {
+  content: $o9con-newspaper-o;
+}
+
+.o9con-notification::before {
+  content: $o9con-notification;
+}
+
+.o9con-network-expand::before {
+  content: $o9con-network-expand;
+}
+
+.o9con-network-collapse::before {
+  content: $o9con-network-collapse;
+}
+
+.o9con-mouse-pointer::before {
+  content: $o9con-mouse-pointer;
+}
+
+.o9con-motorcycle::before {
+  content: $o9con-motorcycle;
+}
+
+.o9con-moon-star::before {
+  content: $o9con-moon-star;
+}
+
+.o9con-money::before {
+  content: $o9con-money;
+}
+
+.o9con-microchip::before {
+  content: $o9con-microchip;
+}
+
+.o9con-map::before {
+  content: $o9con-map;
+}
+
+.o9con-map-signs::before {
+  content: $o9con-map-signs;
+}
+
+.o9con-mail-write::before {
+  content: $o9con-mail-write;
+}
+
+.o9con-mail-o9::before {
+  content: $o9con-mail-o9;
+}
+
+.o9con-mail-new::before {
+  content: $o9con-mail-new;
+}
+
+.o9con-low-vision::before {
+  content: $o9con-low-vision;
+}
+
+.o9con-location-arrow::before {
+  content: $o9con-location-arrow;
+}
+
+.o9con-institution::before {
+  content: $o9con-institution;
+}
+
+.o9con-coffee::before {
+  content: $o9con-coffee;
+}
+
+.o9con-hourglass-start::before {
+  content: $o9con-hourglass-start;
+}
+
+.o9con-id-badge::before {
+  content: $o9con-id-badge;
+}
+
+.o9con-i-cursor::before {
+  content: $o9con-i-cursor;
+}
+
+.o9con-hotel::before {
+  content: $o9con-hotel;
+}
+
+.o9con-handshake-o::before {
+  content: $o9con-handshake-o;
+}
+
+.o9con-hourglass-o::before {
+  content: $o9con-hourglass-o;
+}
+
+.o9con-hourglass-end::before {
+  content: $o9con-hourglass-end;
+}
+
+.o9con-adjust::before {
+  content: $o9con-adjust;
+}
+
+.o9con-heartbeat::before {
+  content: $o9con-heartbeat;
+}
+
+.o9con-headphones::before {
+  content: $o9con-headphones;
+}
+
+.o9con-hashtag-alt::before {
+  content: $o9con-hashtag-alt;
+}
+
+.o9con-glass::before {
+  content: $o9con-glass;
+}
+
+.o9con-fighter-jet::before {
+  content: $o9con-fighter-jet;
+}
+
+.o9con-gavel::before {
+  content: $o9con-gavel;
+}
+
+.o9con-gamepad::before {
+  content: $o9con-gamepad;
+}
+
+.o9con-futbol-o::before {
+  content: $o9con-futbol-o;
+}
+
+.o9con-ambulance::before {
+  content: $o9con-ambulance;
+}
+
+.o9con-fax::before {
+  content: $o9con-fax;
+}
+
+.o9con-eyedropper::before {
+  content: $o9con-eyedropper;
+}
+
+.o9con-expand-group::before {
+  content: $o9con-expand-group;
+}
+
+.o9con-drivers-license::before {
+  content: $o9con-drivers-license;
+}
+
+.o9con-database::before {
+  content: $o9con-database;
+}
+
+.o9con-cutlery::before {
+  content: $o9con-cutlery;
+}
+
+.o9con-credit-card::before {
+  content: $o9con-credit-card;
+}
+
+.o9con-credit-card-alt::before {
+  content: $o9con-credit-card-alt;
+}
+
+.o9con-collapse-group::before {
+  content: $o9con-collapse-group;
+}
+
+.o9con-bug::before {
+  content: $o9con-bug;
+}
+
+.o9con-chart-progress::before {
+  content: $o9con-chart-progress;
+}
+
+.o9con-cart-plus::before {
+  content: $o9con-cart-plus;
+}
+
+.o9con-cart-arrow-down::before {
+  content: $o9con-cart-arrow-down;
+}
+
+.o9con-car::before {
+  content: $o9con-car;
+}
+
+.o9con-cab::before {
+  content: $o9con-cab;
+}
+
+.o9con-bus::before {
+  content: $o9con-bus;
+}
+
+.o9con-bullhorn::before {
+  content: $o9con-bullhorn;
+}
+
+.o9con-building::before {
+  content: $o9con-building;
+}
+
+.o9con-american-sign-language-interpreting::before {
+  content: $o9con-american-sign-language-interpreting;
+}
+
+.o9con-briefcase::before {
+  content: $o9con-briefcase;
+}
+
+.o9con-braille::before {
+  content: $o9con-braille;
+}
+
+.o9con-book-x::before {
+  content: $o9con-book-x;
+}
+
+.o9con-book-excel::before {
+  content: $o9con-book-excel;
+}
+
+.o9con-bomb::before {
+  content: $o9con-bomb;
+}
+
+.o9con-bluetooth::before {
+  content: $o9con-bluetooth;
+}
+
+.o9con-bluetooth-b::before {
+  content: $o9con-bluetooth-b;
+}
+
+.o9con-old::before {
+  content: $o9con-old;
+}
+
+.o9con-birthday-cake::before {
+  content: $o9con-birthday-cake;
+}
+
+.o9con-battery::before {
+  content: $o9con-battery;
+}
+
+.o9con-battery-three-quarters::before {
+  content: $o9con-battery-three-quarters;
+}
+
+.o9con-bed::before {
+  content: $o9con-bed;
+}
+
+.o9con-bicycle::before {
+  content: $o9con-bicycle;
+}
+
+.o9con-bell-slash::before {
+  content: $o9con-bell-slash;
+}
+
+.o9con-battery-quarter::before {
+  content: $o9con-battery-quarter;
+}
+
+.o9con-battery-half::before {
+  content: $o9con-battery-half;
+}
+
+.o9con-battery-empty::before {
+  content: $o9con-battery-empty;
+}
+
+.o9con-barcode::before {
+  content: $o9con-barcode;
+}
+
+.o9con-bank::before {
+  content: $o9con-bank;
+}
+
+.o9con-balance-scale::before {
+  content: $o9con-balance-scale;
+}
+
+.o9con-automobile::before {
+  content: $o9con-automobile;
+}
+
+.o9con-archive::before {
+  content: $o9con-archive;
+}
+
+.o9con-anchor::before {
+  content: $o9con-anchor;
+}
+
+.o9con-address-card::before {
+  content: $o9con-address-card;
+}
+
+.o9con-female::before {
+  content: $o9con-female;
+}
+
+.o9con-webhook-o::before {
+  content: $o9con-webhook-o;
+}
+
+.o9con-tty::before {
+  content: $o9con-tty;
+}
+
+.o9con-paper-plane-o::before {
+  content: $o9con-paper-plane-o;
+}
+
+.o9con-area-chart::before {
+  content: $o9con-area-chart;
+}
+
+.o9con-moon-o::before {
+  content: $o9con-moon-o;
+}
+
+.o9con-mobile::before {
+  content: $o9con-mobile;
+}
+
+.o9con-male::before {
+  content: $o9con-male;
+}
+
+.o9con-industry::before {
+  content: $o9con-industry;
+}
+
+.o9con-hashtag::before {
+  content: $o9con-hashtag;
+}
+
+.o9con-folder-add::before {
+  content: $o9con-folder-add;
+}
+
+.o9con-desktop::before {
+  content: $o9con-desktop;
+}
+
+.o9con-blind::before {
+  content: $o9con-blind;
+}
+
+.o9con-signal::before {
+  content: $o9con-signal;
+}
+
+.o9con-components::before {
+  content: $o9con-components;
+}
+
+.o9con-bath::before {
+  content: $o9con-bath;
+}
+
+.o9con-bandcamp::before {
+  content: $o9con-bandcamp;
+}
+
+.o9con-beer::before {
+  content: $o9con-beer;
+}
+
+.o9con-cc::before {
+  content: $o9con-cc;
+}
+
+.o9con-cc-o::before {
+  content: $o9con-cc-o;
+}
+
+.o9con-camera::before {
+  content: $o9con-camera;
+}
+
+.o9con-camera-retro::before {
+  content: $o9con-camera-retro;
+}
+
+.o9con-btc::before {
+  content: $o9con-btc;
+}
+
+.o9con-assistive-listening-systems::before {
+  content: $o9con-assistive-listening-systems;
+}
+
+.o9con-3d-model::before {
+  content: $o9con-3d-model;
+}
+
+.o9con-hand-spock-o::before {
+  content: $o9con-hand-spock-o;
+}
+
+.o9con-hand-scissors-o::before {
+  content: $o9con-hand-scissors-o;
+}
+
+.o9con-hand-rock-o::before {
+  content: $o9con-hand-rock-o;
+}
+
+.o9con-hand-pointer-o::before {
+  content: $o9con-hand-pointer-o;
+}
+
+.o9con-hand-peace-o::before {
+  content: $o9con-hand-peace-o;
+}
+
+.o9con-hand-paper-o::before {
+  content: $o9con-hand-paper-o;
+}
+
+.o9con-gg::before {
+  content: $o9con-gg;
+}
+
+.o9con-doctor-male::before {
+  content: $o9con-doctor-male;
+}
+
+.o9con-filter-check::before {
+  content: $o9con-filter-check;
+}
+
+.o9con-drawing-compass::before {
+  content: $o9con-drawing-compass;
+}
+
+.o9con-gg-circle::before {
+  content: $o9con-gg-circle;
+}
+
+.o9con-deaf::before {
+  content: $o9con-deaf;
+}
+
+.o9con-diversity::before {
+  content: $o9con-diversity;
+}
+
+.o9con-deviation::before {
+  content: $o9con-deviation;
+}
+
+.o9con-doctor-female::before {
+  content: $o9con-doctor-female;
+}
+
+.o9con-comment-help-alt::before {
+  content: $o9con-comment-help-alt;
+}
+
+.o9con-child::before {
+  content: $o9con-child;
+}
+
+.o9con-child-alt::before {
+  content: $o9con-child-alt;
+}
+
+.o9con-cup::before {
+  content: $o9con-cup;
+}
+
+.o9con-copyright::before {
+  content: $o9con-copyright;
+}
+
+.o9con-width::before {
+  content: $o9con-width;
+}
+
+.o9con-volume-control-phone::before {
+  content: $o9con-volume-control-phone;
+}
+
+.o9con-viacoin::before {
+  content: $o9con-viacoin;
+}
+
+.o9con-user-times::before {
+  content: $o9con-user-times;
+}
+
+.o9con-try::before {
+  content: $o9con-try;
+}
+
+.o9con-user-edit::before {
+  content: $o9con-user-edit;
+}
+
+.o9con-universal-access::before {
+  content: $o9con-universal-access;
+}
+
+.o9con-user-plus::before {
+  content: $o9con-user-plus;
+}
+
+.o9con-trademark::before {
+  content: $o9con-trademark;
+}
+
+.o9con-th-large::before {
+  content: $o9con-th-large;
+}
+
+.o9con-tape::before {
+  content: $o9con-tape;
+}
+
+.o9con-suitcase::before {
+  content: $o9con-suitcase;
+}
+
+.o9con-street-view::before {
+  content: $o9con-street-view;
+}
+
+.o9con-stop-watch::before {
+  content: $o9con-stop-watch;
+}
+
+.o9con-states::before {
+  content: $o9con-states;
+}
+
+.o9con-size::before {
+  content: $o9con-size;
+}
+
+.o9con-shower::before {
+  content: $o9con-shower;
+}
+
+.o9con-ruler::before {
+  content: $o9con-ruler;
+}
+
+.o9con-rub::before {
+  content: $o9con-rub;
+}
+
+.o9con-registered-trademark::before {
+  content: $o9con-registered-trademark;
+}
+
+.o9con-medkit::before {
+  content: $o9con-medkit;
+}
+
+.o9con-hand-lizard-o::before {
+  content: $o9con-hand-lizard-o;
+}
+
+.o9con-hand-clap::before {
+  content: $o9con-hand-clap;
+}
+
+.o9con-h-square::before {
+  content: $o9con-h-square;
+}
+
+.o9con-measure-tools::before {
+  content: $o9con-measure-tools;
+}
+
+.o9con-length::before {
+  content: $o9con-length;
+}
+
+.o9con-krw::before {
+  content: $o9con-krw;
+}
+
+.o9con-ils::before {
+  content: $o9con-ils;
+}
+
+.o9con-hospital-o::before {
+  content: $o9con-hospital-o;
+}
+
+.o9con-height::before {
+  content: $o9con-height;
+}
+
+.o9con-comment::before {
+  content: $o9con-comment;
+}
+
+.o9con-commenting::before {
+  content: $o9con-commenting;
+}
+
+.o9con-comments::before {
+  content: $o9con-comments;
+}
+
+.o9con-split-up::before {
+  content: $o9con-split-up;
+}
+
+.o9con-trend-down::before {
+  content: $o9con-trend-down;
+}
+
+.o9con-trend-up::before {
+  content: $o9con-trend-up;
+}
+
+.o9con-turn-down-left::before {
+  content: $o9con-turn-down-left;
+}
+
+.o9con-turn-down-right::before {
+  content: $o9con-turn-down-right;
+}
+
+.o9con-turn-left-down::before {
+  content: $o9con-turn-left-down;
+}
+
+.o9con-turn-left-up::before {
+  content: $o9con-turn-left-up;
+}
+
+.o9con-turn-right-down::before {
+  content: $o9con-turn-right-down;
+}
+
+.o9con-turn-right-up::before {
+  content: $o9con-turn-right-up;
+}
+
+.o9con-turn-up-left::before {
+  content: $o9con-turn-up-left;
+}
+
+.o9con-turn-up-right::before {
+  content: $o9con-turn-up-right;
+}
+
+.o9con-merge-up::before {
+  content: $o9con-merge-up;
+}
+
+.o9con-mars-double::before {
+  content: $o9con-mars-double;
+}
+
+.o9con-mercury::before {
+  content: $o9con-mercury;
+}
+
+.o9con-neuter::before {
+  content: $o9con-neuter;
+}
+
+.o9con-transgender-alt::before {
+  content: $o9con-transgender-alt;
+}
+
+.o9con-transgender::before {
+  content: $o9con-transgender;
+}
+
+.o9con-venus-double::before {
+  content: $o9con-venus-double;
+}
+
+.o9con-venus-mars::before {
+  content: $o9con-venus-mars;
+}
+
+.o9con-mars-stroke::before {
+  content: $o9con-mars-stroke;
+}
+
+.o9con-mars-stroke-v::before {
+  content: $o9con-mars-stroke-v;
+}
+
+.o9con-mars-stroke-h::before {
+  content: $o9con-mars-stroke-h;
+}
+
+.o9con-legal::before {
+  content: $o9con-legal;
+}
+
+.o9con-no-video::before {
+  content: $o9con-no-video;
+}
+
+.o9con-paw::before {
+  content: $o9con-paw;
+}
+
+.o9con-spoon::before {
+  content: $o9con-spoon;
+}
+
+.o9con-th-list::before {
+  content: $o9con-th-list;
+}
+
+.o9con-tree::before {
+  content: $o9con-tree;
+}
+
+.o9con-user-secret::before {
+  content: $o9con-user-secret;
+}
+
+.o9con-video-camera::before {
+  content: $o9con-video-camera;
+}
+
+.o9con-control-room::before {
+  content: $o9con-control-room;
+}
+
+.o9con-control-tower::before {
+  content: $o9con-control-tower;
+}
+
+.o9con-airport-tower::before {
+  content: $o9con-airport-tower;
+}
+
+.o9con-legend::before {
+  content: $o9con-legend;
+}
+
+.o9con-edge::before {
+  content: $o9con-edge;
+}
+
+.o9con-select-area::before {
+  content: $o9con-select-area;
+}
+
+.o9con-edge-alt::before {
+  content: $o9con-edge-alt;
+}
+
+.o9con-triangle-shape::before {
+  content: $o9con-triangle-shape;
+}
+
+.o9con-circle-shape::before {
+  content: $o9con-circle-shape;
+}
+
+.o9con-diamond-shape::before {
+  content: $o9con-diamond-shape;
+}
+
+.o9con-waterfall-chart::before {
+  content: $o9con-waterfall-chart;
+}
+
+.o9con-warehouse::before {
+  content: $o9con-warehouse;
+}
+
+.o9con-unpacking::before {
+  content: $o9con-unpacking;
+}
+
+.o9con-supply::before {
+  content: $o9con-supply;
+}
+
+.o9con-supplier::before {
+  content: $o9con-supplier;
+}
+
+.o9con-store::before {
+  content: $o9con-store;
+}
+
+.o9con-store-cart::before {
+  content: $o9con-store-cart;
+}
+
+.o9con-select-check::before {
+  content: $o9con-select-check;
+}
+
+.o9con-resource-manufacture::before {
+  content: $o9con-resource-manufacture;
+}
+
+.o9con-plus-minus::before {
+  content: $o9con-plus-minus;
+}
+
+.o9con-plus-minus-alt::before {
+  content: $o9con-plus-minus-alt;
+}
+
+.o9con-packing::before {
+  content: $o9con-packing;
+}
+
+.o9con-package::before {
+  content: $o9con-package;
+}
+
+.o9con-open-parcel::before {
+  content: $o9con-open-parcel;
+}
+
+.o9con-network-node::before {
+  content: $o9con-network-node;
+}
+
+.o9con-minus-plus::before {
+  content: $o9con-minus-plus;
+}
+
+.o9con-manufacturing-plant::before {
+  content: $o9con-manufacturing-plant;
+}
+
+.o9con-unlock-full::before {
+  content: $o9con-unlock-full;
+}
+
+.o9con-left-right::before {
+  content: $o9con-left-right;
+}
+
+.o9con-hexagon-shape::before {
+  content: $o9con-hexagon-shape;
+}
+
+.o9con-delivery::before {
+  content: $o9con-delivery;
+}
+
+.o9con-delivery-truck::before {
+  content: $o9con-delivery-truck;
+}
+
+.o9con-delivery-store::before {
+  content: $o9con-delivery-store;
+}
+
+.o9con-collapse-up::before {
+  content: $o9con-collapse-up;
+}
+
+.o9con-collapse-down::before {
+  content: $o9con-collapse-down;
+}
+
+.o9con-building-manufacture::before {
+  content: $o9con-building-manufacture;
+}
+
+// ALIAS - START  ----------------------
+.o9con-edit::before {
+  content: $o9con-pencil-square-o;
+}
+
+.o9con-euro::before {
+  content: $o9con-eur;
+}
+
+.o9con-show::before {
+  content: $o9con-eye;
+}
+
+.o9con-hide::before {
+  content: $o9con-eye-slash;
+}
+
+.o9con-file-picture-o::before {
+  content: $o9con-file-image-o;
+}
+
+.o9con-file-photo-o::before {
+  content: $o9con-file-image-o;
+}
+
+.o9con-file-audio-o::before {
+  content: $o9con-file-music-o;
+}
+
+.o9con-file-sound-o::before {
+  content: $o9con-file-music-o;
+}
+
+.o9con-file-text::before {
+  content: $o9con-file-text-o;
+}
+
+.o9con-file-movie-o::before {
+  content: $o9con-file-video-o;
+}
+
+.o9con-folder-open-o::before {
+  content: $o9con-folder-open;
+}
+
+.o9con-ge::before {
+  content: $o9con-empire;
+}
+
+.o9con-gear::before {
+  content: $o9con-cog;
+}
+
+.o9con-gears::before {
+  content: $o9con-cogs;
+}
+
+.o9con-image::before {
+  content: $o9con-picture;
+}
+
+.o9con-jpy::before {
+  content: $o9con-cny;
+}
+
+.o9con-mail-forward::before {
+  content: $o9con-share;
+}
+
+.o9con-mobile-phone::before {
+  content: $o9con-mobile;
+}
+
+.o9con-outdent::before {
+  content: $o9con-dedent;
+}
+
+.o9con-paste::before {
+  content: $o9con-clipboard;
+}
+
+.o9con-phone::before {
+  content: $o9con-call-alt;
+}
+
+.o9con-photo::before {
+  content: $o9con-picture;
+}
+
+.o9con-photo-o::before {
+  content: $o9con-picture;
+}
+
+.o9con-picture-o::before {
+  content: $o9con-picture;
+}
+
+.o9con-play-circle-o::before {
+  content: $o9con-play-circle;
+}
+
+.o9con-print::before {
+  content: $o9con-printer;
+}
+
+.o9con-random::before {
+  content: $o9con-shuffle;
+}
+
+.o9con-remove::before {
+  content: $o9con-close;
+}
+
+.o9con-reply::before {
+  content: $o9con-mail-reply;
+}
+
+.o9con-reply-all::before {
+  content: $o9con-mail-reply-all;
+}
+
+.o9con-save::before {
+  content: $o9con-floppy-o;
+}
+
+.o9con-scissors::before {
+  content: $o9con-cut;
+}
+
+.o9con-send::before {
+  content: $o9con-paper-plane;
+}
+
+.o9con-send-o::before {
+  content: $o9con-paper-plane-o;
+}
+
+.o9con-sitemap::before {
+  content: $o9con-tree-view;
+}
+
+.o9con-sort::before {
+  content: $o9con-caret-scroll-v;
+}
+
+.o9con-sort-down::before {
+  content: $o9con-caret-down;
+}
+
+.o9con-star-half::before {
+  content: $o9con-star-half-o;
+}
+
+.o9con-star-half-empty::before {
+  content: $o9con-star-half-o;
+}
+
+.o9con-star-half-full::before {
+  content: $o9con-star-half-o;
+}
+
+.o9con-step-backward::before {
+  content: $o9con-prev;
+}
+
+.o9con-step-forward::before {
+  content: $o9con-next;
+}
+
+.o9con-th::before {
+  content: $o9con-apps;
+}
+
+.o9con-thumbs-o-down::before {
+  content: $o9con-thumbs-down;
+}
+
+.o9con-thumbs-o-up::before {
+  content: $o9con-thumbs-up;
+}
+
+.o9con-trash::before {
+  content: $o9con-bin;
+}
+
+.o9con-trash-o::before {
+  content: $o9con-bin;
+}
+
+.o9con-close-circle::before {
+  content: $o9con-times-circle;
+}
+
+.o9con-close-circle-o::before {
+  content: $o9con-times-circle-o;
+}
+
+.o9con-undo::before {
+  content: $o9con-rotate-left;
+}
+
+.o9con-redo::before {
+  content: $o9con-rotate-right;
+}
+
+.o9con-users::before {
+  content: $o9con-group;
+}
+
+.o9con-asl-interpreting::before {
+  content: $o9con-american-sign-language-interpreting;
+}
+
+.o9con-hand-grab-o::before {
+  content: $o9con-hand-rock-o;
+}
+
+.o9con-hand-stop-o::before {
+  content: $o9con-hand-paper-o;
+}
+
+.o9con-registered::before {
+  content: $o9con-registered-trademark;
+}
+
+.o9con-warning::before {
+  content: $o9con-exclamation-triangle;
+}
+
+.o9con-toggle-down::before {
+  content: $o9con-caret-square-o-down;
+}
+
+.o9con-toggle-up::before {
+  content: $o9con-caret-square-o-up;
+}
+
+.o9con-toggle-right::before {
+  content: $o9con-caret-square-o-right;
+}
+
+.o9con-toggle-left::before {
+  content: $o9con-caret-square-o-left;
+}
+
+.o9con-support::before {
+  content: $o9con-life-bouy;
+}
+
+.o9con-search-plus::before {
+  content: $o9con-zoom-in;
+}
+
+.o9con-search-minus::before {
+  content: $o9con-zoom-out;
+}
+
+.o9con-bitcoin::before {
+  content: $o9con-btc;
+}
+
+.o9con-feed::before {
+  content: $o9con-rss;
+}
+
+.o9con-genderless::before {
+  content: $o9con-circle-thin;
+}
+
+.o9con-intersex::before {
+  content: $o9con-transgender;
+}
+
+.o9con-mars::before {
+  content: $o9con-male-o;
+}
+
+.o9con-mortar-board::before {
+  content: $o9con-graduation-cap;
+}
+
+.o9con-navicon::before {
+  content: $o9con-bars;
+}
+
+.o9con-reorder::before {
+  content: $o9con-bars;
+}
+
+.o9con-rmb::before {
+  content: $o9con-cny;
+}
+
+.o9con-rouble::before {
+  content: $o9con-rub;
+}
+
+.o9con-ruble::before {
+  content: $o9con-rub;
+}
+
+.o9con-rupee::before {
+  content: $o9con-inr;
+}
+
+.o9con-server::before {
+  content: $o9con-stack;
+}
+
+.o9con-shekel::before {
+  content: $o9con-ils;
+}
+
+.o9con-sheqel::before {
+  content: $o9con-ils;
+}
+
+.o9con-soccer-ball-o::before {
+  content: $o9con-futbol-o;
+}
+
+.o9con-sort-asc::before {
+  content: $o9con-caret-up;
+}
+
+.o9con-sort-desc::before {
+  content: $o9con-caret-down;
+}
+
+.o9con-sort-up::before {
+  content: $o9con-caret-up;
+}
+
+.o9con-tachometer::before {
+  content: $o9con-dashboard;
+}
+
+.o9con-university::before {
+  content: $o9con-institution;
+}
+
+.o9con-unlock::before {
+  content: $o9con-lock-open;
+}
+
+.o9con-unlock-alt::before {
+  content: $o9con-lock-open-alt;
+}
+
+.o9con-unsorted::before {
+  content: $o9con-caret-scroll-v;
+}
+
+.o9con-usd::before {
+  content: $o9con-dollar;
+}
+
+.o9con-user-md::before {
+  content: $o9con-doctor-male;
+}
+
+.o9con-venus::before {
+  content: $o9con-female-o;
+}
+
+.o9con-volume-off::before {
+  content: $o9con-speaker;
+}
+
+.o9con-yen::before {
+  content: $o9con-cny;
+}
+// ALIAS - END -----------------------

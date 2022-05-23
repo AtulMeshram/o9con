@@ -1,0 +1,45 @@
+// Needed '!default' vars for custom theme
+$theme-colors: () !default;
+$font-weight-normal: 400 !default;
+$font-size-base: 1rem !default;
+
+// Color system
+
+$white: #ffffff;
+$black: #000000;
+$gray-100: #f4f5f6;
+$gray-200: #eeeeee;
+$gray-300: #aaaaaa;
+$gray-400: #888888;
+$gray-500: #555555;
+$gray-600: #444444;
+
+$theme-blue: rgba(0, 113, 198, 1); //#0071BD;
+$theme-green: rgba(83, 130, 53, 1); //#538235;
+$theme-yellow: rgba(255, 197, 0, 1); //#FFC500;
+$theme-black: rgba(51, 51, 51, 1); //#333333;
+
+$primary-color: #4f55cf;
+$accent-color: #fcb305;
+
+$text-color: $white;
+$body-color: $black;
+
+$danger-color: #da2c38;
+$warning-color: #ffa01a;
+$success-color: #00af8c;
+$info-color: #00aaf0;
+
+$link-color: #5f66df;
+$link-color-dark: #3037b0;
+
+// Fonts
+
+$font-family-sans-serif: "Montserrat", sans-serif;
+$font-weight-bold: 600;
+$line-height-base: 2;
+$h2-font-size: $font-size-base * 1.625;
+$h6-font-size: $font-size-base * 0.875;
+$headings-line-height: 1.175;
+$display3-size: 5rem;
+$lead-font-size: ($font-size-base * 1);

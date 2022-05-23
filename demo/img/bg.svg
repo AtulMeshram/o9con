@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1328" height="302" viewBox="0 0 1328 302">
+  <defs>
+    <linearGradient id="bg-a" x1="50%" x2="50%" y1="100%" y2="1.632%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bg-b" x1="50%" x2="50%" y1="1.632%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bg-c" x1="100%" x2="23.613%" y1="0%" y2="89.721%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none">
+    <circle cx="1199" cy="189" r="75" fill="url(#bg-a)"/>
+    <circle cx="37.5" cy="37.5" r="37.5" fill="url(#bg-b)"/>
+    <circle cx="949.5" cy="264.5" r="37.5" fill="url(#bg-b)"/>
+    <circle cx="500" cy="38" r="25" fill="url(#bg-b)"/>
+    <circle cx="86" cy="182" r="25" fill="url(#bg-a)"/>
+    <circle cx="274" cy="53" r="15" fill="url(#bg-a)"/>
+    <circle cx="831" cy="142" r="15" fill="url(#bg-a)"/>
+    <circle cx="1313" cy="75" r="15" fill="url(#bg-b)"/>
+    <circle cx="372" cy="252" r="50" fill="url(#bg-c)"/>
+    <circle cx="1012" cy="42" r="25" fill="url(#bg-b)"/>
+  </g>
+</svg>

@@ -1,0 +1,520 @@
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: $body-color;
+  color: $text-color;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+header {
+  text-align: center;
+  padding: 120px 0px 100px 0px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  color: $white;
+  overflow-x: hidden;
+}
+
+header div {
+  display: block;
+  // background-image: url("../img/bg.svg");
+  background-color: $primary-color;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20rem;
+  z-index: -1;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  // transform: scale(1);
+  overflow-x: hidden;
+}
+
+header:hover div {
+  // transform: scale(1.05);
+}
+
+header:hover h1 {
+  // transform: scale(1.025);
+}
+
+header:hover span {
+  margin-top: 1em;
+  // transform: scale(1.02);
+}
+
+header h1 {
+  font-size: 2.55rem;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  // transform: scale(1);
+}
+header span {
+  font-size: 0.8rem;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  // transform: scale(1);
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 1em;
+}
+
+header a {
+  color: $accent-color;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul li {
+  border-radius: 0.25em;
+  transition: background 0.2s;
+  user-select: none;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em;
+  width: 16rem;
+}
+
+ul li:hover {
+  background: rgba($primary-color, 0.2);
+}
+
+ul p,
+ul em,
+ul input {
+  display: block;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 1);
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  max-width: 16rem;
+}
+
+ul i {
+  color: $primary-color;
+}
+
+ul p {
+  color: $text-color;
+  padding: 8px 0;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+ul p::selection,
+ul em::selection {
+  background: $primary-color;
+  color: #fff;
+}
+
+ul p::-moz-selection,
+ul em::-moz-selection {
+  background: $primary-color;
+  color: #fff;
+}
+
+ul em {
+  margin-bottom: 8px;
+  color: $gray-400;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+}
+
+ul em::before {
+  content: "[";
+}
+ul em::after {
+  content: "]";
+}
+
+ul input {
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.first-section {
+  // margin-top: 3rem;
+}
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 40px 0;
+  border-top: 1px solid $primary-color;
+}
+
+.sub-header > h1 {
+  background-color: $primary-color;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color: $white;
+  width: 18rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 0 auto;
+  border-radius: 0 0 8px 8px;
+}
+
+.toggler {
+  cursor: pointer;
+  -webkit-transition: background 0.15s, color 0.15s;
+  -moz-transition: background 0.15s, color 0.15s;
+  transition: background 0.15s, color 0.15s;
+}
+
+.toggler:hover {
+  // background-color: rgba(63, 68, 207, 1);
+  background-color: $link-color-dark;
+  color: $white;
+}
+
+.new-section-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px auto 2rem auto;
+}
+
+.new-section-tags > p {
+  font-family: "Inconsolata", monospace;
+  background-color: $accent-color;
+  border-radius: 0.25em;
+  user-select: all;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 1rem;
+  width: auto;
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+
+.relative-size-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem auto 2rem auto;
+  font-size: 24px;
+}
+
+.relative-size-icons > i {
+  background-color: transparent;
+  user-select: none;
+  text-align: center;
+  padding: 0.1rem 0.1rem;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.sub-header-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.sub-header-info > p {
+  background-color: transparent;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 0.9rem;
+  color: $primary-color;
+  width: auto;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 0 auto;
+}
+
+.sub-header-info > p > span > {
+  font-size: 1.2rem;
+}
+
+.new-section-tags-primary {
+  font-weight: 600;
+  color: $black;
+  border: solid 1px $black;
+}
+
+.new-section-16 > ul > li {
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  width: 48px;
+}
+
+.new-section-20 > ul > li {
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+  width: 56px;
+}
+
+.new-section-24 > ul > li {
+  justify-content: center;
+  text-align: center;
+  padding: 16px;
+  width: 64px;
+}
+
+.new-section-32 > ul > li {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  width: 80px;
+}
+
+.new-section-40 > ul > li {
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  width: 96px;
+}
+
+.new-section-48 > ul > li {
+  justify-content: center;
+  text-align: center;
+  padding: 28px;
+  width: 108px;
+}
+
+.new-section-48 .o9con-bg > ul > li {
+  justify-content: center;
+  text-align: center;
+  padding: 28px;
+  width: 108px;
+}
+
+.code-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px auto 2rem auto;
+}
+.code-block > p {
+  background-color: $accent-color;
+  color: $black;
+  border-radius: 0.25em;
+  user-select: all;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 1rem;
+  width: auto;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  font-family: "Inconsolata", monospace;
+}
+.o-60 {
+  opacity: 0.6;
+}
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding: 0.25rem 1rem;
+  margin: 3rem 0 0 0;
+  background-color: $primary-color;
+}
+
+footer > p {
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+  color: $white;
+}
+
+footer > p > span {
+  font-weight: 600;
+}
+
+footer > p > span > a {
+  color: #fcb305;
+}
+footer > p > span > a:hover {
+  text-decoration: underline;
+}
+footer > p > span > a:visited {
+  color: #fcb305;
+}
+
+.place-start {
+  text-align: left;
+}
+
+.place-end {
+  text-align: right;
+}
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track {
+  // margin: 0;
+  -webkit-box-shadow: none !important;
+  background-color: transparent !important;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(79, 85, 207, 0.5);
+}
+
+/*  Background Animation  */
+.area {
+  background: #4e54c8;
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  width: 100%;
+  height: 20rem;
+}
+
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+/*  Background Animation  */
